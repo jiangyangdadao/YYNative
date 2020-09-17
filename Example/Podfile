@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'YYNative_Example' do
   pod 'YYNative', :path => '../'
-
+	pod 'ZLPhotoBrowser'
   target 'YYNative_Tests' do
     inherit! :search_paths
 

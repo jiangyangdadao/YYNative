@@ -1,0 +1,6 @@
+framework module YYNative {
+  umbrella header "YYNative-umbrella.h"
+
+  export *
+  module * { export * }
+}

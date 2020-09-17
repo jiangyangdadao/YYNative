@@ -1,0 +1,27 @@
+{
+  "name": "YYNative",
+  "version": "0.1.0",
+  "summary": "A short description of YYNative.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JYY/YYNative",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JYY": "1059791307@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/JYY/YYNative.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "YYNative/Classes/**/*",
+  "dependencies": {
+    "ZLPhotoBrowser": [
+
+    ]
+  }
+}
