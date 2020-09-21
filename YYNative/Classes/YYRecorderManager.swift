@@ -63,31 +63,25 @@ public class YYRecorderManager: NSObject {
     }
     
     func initRecorder() {
-        AVCaptureDevice.requestAccess(for: .audio) {[unowned self] (audioGranted) in
-            if !audioGranted {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    self.showAlertAndDismissAfterDoneAction(message: String(format: "请在iPhone的\"设置-隐私-麦克风\"选项中，允许%@访问你的麦克风", self.getAppName()))
-                }
-            } else {
-                try? AVAudioSession.sharedInstance().setCategory(.playAndRecord)
-                try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
-                
-                let url = URL(fileURLWithPath: recorderPath)
-                if (!FileManager.default.fileExists(atPath: recorderPath)) {
-                    try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true, attributes: nil)
-                }
-                
-                let recordSettings: [String:Any] = [
-                    AVFormatIDKey:kAudioFormatMPEG4AAC,
-                    AVLinearPCMBitDepthKey:16,
-                    AVEncoderAudioQualityKey: AVAudioQuality.max.rawValue,
-                    AVNumberOfChannelsKey: 2,
-                    AVSampleRateKey: 44100.0]
-                
-                self.recorder = try? AVAudioRecorder(url: url, settings: recordSettings)
-                self.recorder?.prepareToRecord()
-                self.recorder?.delegate = self
+        requestAccess(for: .audio) { [unowned self]  in
+            try? AVAudioSession.sharedInstance().setCategory(.playAndRecord)
+            try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+            
+            let url = URL(fileURLWithPath: recorderPath)
+            if (!FileManager.default.fileExists(atPath: recorderPath)) {
+                try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true, attributes: nil)
             }
+            
+            let recordSettings: [String:Any] = [
+                AVFormatIDKey:kAudioFormatMPEG4AAC,
+                AVLinearPCMBitDepthKey:16,
+                AVEncoderAudioQualityKey: AVAudioQuality.max.rawValue,
+                AVNumberOfChannelsKey: 2,
+                AVSampleRateKey: 44100.0]
+            
+            self.recorder = try? AVAudioRecorder(url: url, settings: recordSettings)
+            self.recorder?.prepareToRecord()
+            self.recorder?.delegate = self
         }
     }
     
@@ -107,27 +101,6 @@ public class YYRecorderManager: NSObject {
         delegate?.recorderManagerUpdateLog(log: RecorderInfo(fail: fail, msg: msg, time: currentTime))
     }
 
-    func showAlertAndDismissAfterDoneAction(message: String) {
-        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "确定", style: .default) { (_) in
-            self.logVC?.dismiss(animated: true, completion: nil)
-        }
-        alert.addAction(action)
-        logVC?.showDetailViewController(alert, sender: nil)
-    }
-    
-    func getAppName() -> String {
-        if let name = Bundle.main.localizedInfoDictionary?["CFBundleDisplayName"] as? String {
-            return name
-        }
-        if let name = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String {
-            return name
-        }
-        if let name = Bundle.main.infoDictionary?["CFBundleName"] as? String {
-            return name
-        }
-        return "App"
-    }
 }
 
 extension YYRecorderManager: AVAudioRecorderDelegate {

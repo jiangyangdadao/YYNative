@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3177DA8A25108AEA00FFB016 /* YYScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3177DA8925108AEA00FFB016 /* YYScanViewController.swift */; };
+		279E548C0F01C1664DF8F589 /* Pods_YYNative_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC0F4A21CDA384223491883 /* Pods_YYNative_Example.framework */; };
 		31CB761C250F177C0026AE87 /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CB761B250F177C0026AE87 /* photoViewController.swift */; };
-		31D56E992512F66800E4DC47 /* YYWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D56E982512F66800E4DC47 /* YYWebViewController.swift */; };
-		53DEA077EF085F8E14372482 /* Pods_YYNative_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C71BA8F78BE12DF4E8C1FA /* Pods_YYNative_Example.framework */; };
+		4017D9E4FF93D2C2F5C35418 /* Pods_YYNative_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4520B2284D3ADA69ACFB29C8 /* Pods_YYNative_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		FB6882680D346C83DAA74FEC /* Pods_YYNative_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF483B61E6CE2E26EC5A74E /* Pods_YYNative_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AF483B61E6CE2E26EC5A74E /* Pods_YYNative_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNative_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24C71BA8F78BE12DF4E8C1FA /* Pods_YYNative_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNative_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3177DA8925108AEA00FFB016 /* YYScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYScanViewController.swift; sourceTree = "<group>"; };
 		31CB761B250F177C0026AE87 /* photoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
-		31D56E982512F66800E4DC47 /* YYWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYWebViewController.swift; sourceTree = "<group>"; };
 		31F76C8179375A7FB98681EE /* Pods-YYNative_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNative_Example.debug.xcconfig"; path = "Target Support Files/Pods-YYNative_Example/Pods-YYNative_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3720631A7F0BA1F16C48C80C /* Pods-YYNative_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNative_Example.release.xcconfig"; path = "Target Support Files/Pods-YYNative_Example/Pods-YYNative_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F2CAD8FD48D15D47490F105 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4395D0EE4BA9777CE00ADA8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4520B2284D3ADA69ACFB29C8 /* Pods_YYNative_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNative_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* YYNative_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYNative_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +47,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		90AEDABBBB237485BBD5E375 /* Pods-YYNative_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNative_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYNative_Tests/Pods-YYNative_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A8270D249035F9FEAEE37611 /* YYNative.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYNative.podspec; path = ../YYNative.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEC0F4A21CDA384223491883 /* Pods_YYNative_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNative_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC526BEBC00931ED3249085F /* Pods-YYNative_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNative_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YYNative_Tests/Pods-YYNative_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DEA077EF085F8E14372482 /* Pods_YYNative_Example.framework in Frameworks */,
+				279E548C0F01C1664DF8F589 /* Pods_YYNative_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6882680D346C83DAA74FEC /* Pods_YYNative_Tests.framework in Frameworks */,
+				4017D9E4FF93D2C2F5C35418 /* Pods_YYNative_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +104,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				3177DA8925108AEA00FFB016 /* YYScanViewController.swift */,
-				31D56E982512F66800E4DC47 /* YYWebViewController.swift */,
 				31CB761B250F177C0026AE87 /* photoViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -170,8 +164,8 @@
 		FD15CDD64407C6AD13F933C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24C71BA8F78BE12DF4E8C1FA /* Pods_YYNative_Example.framework */,
-				0AF483B61E6CE2E26EC5A74E /* Pods_YYNative_Tests.framework */,
+				AEC0F4A21CDA384223491883 /* Pods_YYNative_Example.framework */,
+				4520B2284D3ADA69ACFB29C8 /* Pods_YYNative_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,7 +181,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				A4D011237F3E4FC2321B00C6 /* [CP] Embed Pods Frameworks */,
+				6DEAF0AE59A14ADD4C6E8FDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,7 +200,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				7D084A75894CD8498D5BF1D9 /* [CP] Embed Pods Frameworks */,
+				3142716FF2FADFF1F354AF6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,6 +275,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3142716FF2FADFF1F354AF6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYNative_Tests/Pods-YYNative_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYNative_Tests/Pods-YYNative_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEAF0AE59A14ADD4C6E8FDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYNative_Example/Pods-YYNative_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYNative/YYNative.framework",
+				"${BUILT_PRODUCTS_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYNative.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLPhotoBrowser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYNative_Example/Pods-YYNative_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6E9BF0D13C01550817DA4F1B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,24 +333,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D084A75894CD8498D5BF1D9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YYNative_Tests/Pods-YYNative_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYNative_Tests/Pods-YYNative_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99624A6A142B81E23DC1C406 /* [CP] Check Pods Manifest.lock */ = {
@@ -343,26 +357,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4D011237F3E4FC2321B00C6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YYNative_Example/Pods-YYNative_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YYNative/YYNative.framework",
-				"${BUILT_PRODUCTS_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYNative.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLPhotoBrowser.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYNative_Example/Pods-YYNative_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,10 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				31D56E992512F66800E4DC47 /* YYWebViewController.swift in Sources */,
 				31CB761C250F177C0026AE87 /* photoViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				3177DA8A25108AEA00FFB016 /* YYScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

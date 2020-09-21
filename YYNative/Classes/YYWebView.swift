@@ -10,4 +10,11 @@ import WebKit
 
 public class YYWebView: WKWebView {
  
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
+    init() {
+        super.init(frame: .zero, configuration: WKWebViewConfiguration())
+    }
 }

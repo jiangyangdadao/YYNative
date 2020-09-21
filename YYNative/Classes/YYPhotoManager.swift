@@ -17,7 +17,7 @@ public extension UIViewController {
         ac.showPreview(animate: true, sender: self)
     }
     
-     func selectPhoto(selectImageBlock: ( ([UIImage], [PHAsset], Bool) -> Void )?)  {
+    func selectPhoto(selectImageBlock: ( ([UIImage], [PHAsset], Bool) -> Void )?)  {
         //直接进入相册选择
         let ac = ZLPhotoPreviewSheet()
         ac.selectImageBlock = selectImageBlock

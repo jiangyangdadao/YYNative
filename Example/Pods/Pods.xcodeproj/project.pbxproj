@@ -7,83 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7742A1553C48E7644F9C8815F914827A /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		013EB2A700973DE941931ADF24DA3774 /* String+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AD5ECD5BFAAFFCE9DE1D6F28B3D2F /* String+ZLPhotoBrowser.swift */; };
-		08160F0BB899B1FFF8192ED7AAE76763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632CD4A19903B412EAE33484472D3F7 /* UIKit.framework */; };
-		086862A40DA2D43DD80E8CCDD8AAE596 /* ZLAlbumListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DFC2B97ECB099F3899D95CC2F19EA /* ZLAlbumListModel.swift */; };
-		0A2700A7B2032BB1C849D5B45BAA553A /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DC00211168430A70E5E9950C78F433 /* PhotosUI.framework */; };
-		0DC21232CC2AC0CCA212AF13913C100C /* YYNative-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEFB3413AB75EFCFE8A56268D4515DD /* YYNative-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C58E22387059AFFF612C978FE8B558 /* UIApplication+StrictKeyWindow.m */; };
-		1291A9BD9F74591B40FA44399FEF62EF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C717FD9914E290E25C609EA2CE89D4BC /* CoreMotion.framework */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD4CB90FC2243B78DA0415BBC66EAF /* UIImage+Diff.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC0EAA273152E1FCBAE5DF1AF4F4220 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046689702B1E21635CCF37693BE674F6 /* UIColor+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A96E55AD3539CE6B0BE4DCCE6F790 /* UIColor+ZLPhotoBrowser.swift */; };
+		0D1CBD2451840EF55257C666E12F8D00 /* ZLEmbedAlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858949A077EF88D37D38F5C2C54A9E5 /* ZLEmbedAlbumListView.swift */; };
+		0D6D8411FE4BB2DD08E35D73D0492C84 /* YYScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89C24BD234FCDAA4BE3031C0F0479C /* YYScanViewController.swift */; };
+		0F7900CC5E1A54EFD176BA126D06874A /* UIImage+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEC1C70016DD2DDD7D1A4813C4240C /* UIImage+ZLPhotoBrowser.swift */; };
+		103C349B34EB924206BAE3D098A7CC13 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DC00211168430A70E5E9950C78F433 /* PhotosUI.framework */; };
+		113D9748B9DBC8A337914157BBC3234E /* ZLCustomCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192D4789CA5698CF2F6FEE85754D49B /* ZLCustomCamera.swift */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 288C4278CEABEAB2352ABB0307BD213B /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DB640A4B9319B50D489EFC1C26F38560 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5045BFBA4E04CEDA8C43BFE06C7F4C /* QuartzCore.framework */; };
-		15547D1212A2D975282A1B3AB26AE95D /* ZLClipImageDismissAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D63F874C4A9676922336C016DFF67 /* ZLClipImageDismissAnimatedTransition.swift */; };
-		1D21E3BCE3F1B9A1F0A2BD2237806576 /* ZLPreviewImagePopAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51A53E87538F6B3818CE10C9143C34 /* ZLPreviewImagePopAnimatedTransition.swift */; };
-		1FB66BDDA9582B7652CDD4448ABD96D3 /* Bundle+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88617915FC219EB3099CB3559421028 /* Bundle+ZLPhotoBrowser.swift */; };
-		252DD7CC15820DADEECBBD98B0F2942F /* ZLPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA2F3688BC63B6262C3DF0F60EA6E /* ZLPhotoModel.swift */; };
-		25CB05883CFC09581E0576BD20BD73D0 /* ZLEmbedAlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54B29D069610C7F07002A99B7CC72F /* ZLEmbedAlbumListView.swift */; };
-		27EFEB7E4721FBC757AF437324981063 /* ZLPhotoConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18224867C4E82CF38B5C0E907180CEC0 /* ZLPhotoConfiguration.swift */; };
-		2A0127C26DD75A6EA9A48DE12E5EDC6D /* ZLCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347C4135F72D5BDCE00BD3ECFDB9D67 /* ZLCameraCell.swift */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DEB5C91BEE1799AC6B7337D66F36E4 /* UIImage+Compare.m */; };
+		1AF1A26ADA340A9BE04C8B775C922CA1 /* ZLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9122BC7F9D4D200A28CB4C0982F5DDE2 /* ZLPhotoBrowser.bundle */; };
+		1D128E421B23B6C6BF5A5597E0C035A4 /* UIControl+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF6D388BF46147788C7C483508D1E1 /* UIControl+ZLPhotoBrowser.swift */; };
+		22F2A250FEA8069947013FEAED9FE7E4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C717FD9914E290E25C609EA2CE89D4BC /* CoreMotion.framework */; };
+		23020428556E4677751DE489DD0AACD2 /* ZLCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64551BA0574231450AC5631B8C76AAB /* ZLCameraCell.swift */; };
+		283C0667141CFF93440A2142C8EED317 /* ZLPreviewImagePopAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83197E0F49D3C3950A9AF6182BF1D9 /* ZLPreviewImagePopAnimatedTransition.swift */; };
+		2A0ABC55E18F2DD3C126517AE74A98CD /* ZLPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5347CD31976EB6075B1CDB6BC92473B2 /* ZLPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BB1CC28A5CC227597621786FE9ABA8 /* UIImage+Compare.m */; };
+		2F6BDB9E78C56028E81CD85E12074A36 /* ZLClipImageDismissAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E04EBC79554D18EB84CE45CC659036 /* ZLClipImageDismissAnimatedTransition.swift */; };
+		3189574180E6EEA1479B2F9984B9024C /* YYWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1D663E4424C6045010276E998AD77 /* YYWebViewController.swift */; };
+		323302D6BB470A84DF07ADE69EF75102 /* ZLEditVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14035DAC2F1625A991D156AA425FE8C3 /* ZLEditVideoViewController.swift */; };
+		32B3F6222D1F4765ABEB7D76058A4DF3 /* YYPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B58F94D02D74F4E99CAE797D1256A /* YYPhotoManager.swift */; };
+		34353BB3B05CB64E1F6BC40FE99A3B29 /* ZLPhotoPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB93B3C2EF22911C3F46B563BBC77FE /* ZLPhotoPreviewCell.swift */; };
 		39808944A631AD76A2A67F2AED6FA374 /* Pods-YYNative_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A492B4DA2304E6B483DC02E3B83CF8 /* Pods-YYNative_Tests-dummy.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B0E044BACD6683AA45492155BB72A9 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42D6CB36352AA85DFCDD6966E98AFEDF /* ZLProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199142841689B310DC2E80C6CF7E66E9 /* ZLProgressView.swift */; };
-		4926F97F3AC3DCD0245C646A9BE9BDE6 /* ZLPhotoPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9433BC490DD7BA3318095DB268190D6 /* ZLPhotoPreviewCell.swift */; };
-		4BF49CC86CB5AE06D068CA29FD00BB55 /* ZLPhotoPreviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC9491EE3B20C6C6642AC47C53FC95 /* ZLPhotoPreviewSheet.swift */; };
+		39830620C52AF4470ADD6E29DF009692 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE0C39FABE9DCF2E23C53E840CDD577 /* AVFoundation.framework */; };
+		3C11ED38ED7CF6F16AC00EFE2C8F3C4A /* YYRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4517D41F1F2962F35EE757FFA2FFC2 /* YYRecorderManager.swift */; };
+		3F0FA925FFDC70E3572FA4116DA392BC /* Cell+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AA7DFDD8C7DEE057211CE74D99CB7E /* Cell+ZLPhotoBrowser.swift */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CF88B6EE61C38F424D7C04798A13092E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FC712546BC7110CE6DB0DF96066C0D4 /* ZLPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47755BA2C8A41191250E87B9180F9177 /* ZLPhotoBrowser-dummy.m */; };
+		513D268A1FC3E194DA078D7D4C8A6A40 /* String+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C70AC02A3B100EDBB8BB3DBD893D70 /* String+ZLPhotoBrowser.swift */; };
+		52BE25E3CA84AC6A0B9E6A95BE3E3DBA /* YYNative.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6249249BF1AA222E6AADEF3688B426CD /* YYNative.bundle */; };
+		52E46F8BD78100AF6883BBCB6EE35E0A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D325EDCE23CFAA1349786169B18DE75 /* image.xcassets */; };
+		57D25FA8FA0D2A177226CC007A4FFDBF /* ZLProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBAAB3F4CFA432BBBD387C4E068C34 /* ZLProgressHUD.swift */; };
 		5A0A4140F2F703CD6A4E27745767C0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
-		5DD3CD1B5A8EC6465C29BA834C5C924F /* ZLProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD2CC5A37C82B55BD0334FB01EED0A /* ZLProgressHUD.swift */; };
-		61183F3353BAE8F856DFC85F858C2718 /* ZLPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70F8A4067E86ACEB4984D30D2427A1 /* ZLPhotoManager.swift */; };
-		6311493278BB2AF52CD3CD80E08A6DF0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720431634FD0CFBBA5241CD8CA3BB3F1 /* Photos.framework */; };
-		639C6216E216D20B0F466513177870FC /* ZLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C7F5FE437F035FFD35F6D07592233A7 /* ZLPhotoBrowser.bundle */; };
-		66E28997A30DD7D5FC33A73338DFB4C4 /* ZLCustomCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8901407FB34B5A1D3E6750E98C402846 /* ZLCustomCamera.swift */; };
-		69A13B11657AD60883DEE1502A5464A2 /* ZLThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B2DDE661BD696B00E53218216A320 /* ZLThumbnailViewController.swift */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96287EFC01B8817FCB7A0EB371FA1C04 /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F787A5B709461321B5FDCB2F9ACAE /* FBSnapshotTestCase-dummy.m */; };
-		6F40E301EDB25F6ACE39EF62224434DC /* UIControl+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ED8F83320584B70760177C659259D /* UIControl+ZLPhotoBrowser.swift */; };
-		73581150F9C2DCAA4713942121437F61 /* ZLLanguageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DD8A6810252C8A57D4BCA1D51C290D /* ZLLanguageDefine.swift */; };
-		75854E608FA45790BA0D408E213A6A1C /* YYWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E16133E00A6E01B10B5A6D5D276CC /* YYWebView.swift */; };
+		6AF25D81DA1E2D3E97B1D5389D3EEFBF /* YYNativeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B886627A90CC6AE42159EDB4BD57E938 /* YYNativeDefine.swift */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6549D18AD35041D2F29BAA7665ABB5 /* FBSnapshotTestCase-dummy.m */; };
+		6DD860C86E21BEEA8B6E40515682331D /* ZLImageNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C55848107A6454268B94EBF6015CBA /* ZLImageNavController.swift */; };
+		72622930EE3CBBCB7DBCEB1632E36E0C /* ZLAlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65399016F64A1B4FCC169AAA07084F /* ZLAlbumListController.swift */; };
+		727875726A42ADB7D4B166E746215297 /* ZLAlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32522B6EFB9C8C6CF5752BCA30C4D4 /* ZLAlbumListCell.swift */; };
+		72A76CC8855BD5B92FFF5BB30F5EDCBC /* ZLThumbnailPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D448EC7E96B28D1B19CFFD65A40707A /* ZLThumbnailPhotoCell.swift */; };
 		7BC17DCC42E4F90B7A3A0E8A47AC9BA4 /* Pods-YYNative_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C91CB8511A6254107A3871488D95415 /* Pods-YYNative_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E5D21F6F5370416B4CA4D073568F63D /* ZLPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD14A6F8C8D8B4B064A6B98F43589F1A /* ZLPhotoBrowser.framework */; };
-		82C188ADD72A46F3EB96FD7ECE57757A /* ZLThumbnailPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E600A023F9095B7A1CC25A2D04B2358 /* ZLThumbnailPhotoCell.swift */; };
-		848D87BB2BD4595D63C5CD71CA530972 /* UIColor+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0D90153DCD0BAFF70F9FB2BC3CE73 /* UIColor+ZLPhotoBrowser.swift */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376A19450812ED4922F1080039F010A /* FBSnapshotTestController.m */; };
-		8963BBEAB77483E20DC1BA4E95CE77DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EDA245DDAD9E0ABF9F3BD3C70152F8 /* FBSnapshotTestCase.m */; };
+		7EF4222484058791BD92D69F75A2A15C /* ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB93A7A7B0FDE3E1ACD4EF3C19A90F /* ZLPhotoBrowser.swift */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05877031DB043DEBC5DFA3CA82E0980 /* FBSnapshotTestController.m */; };
+		8C60EDC3E52A40E7C2BEAE8A11B817A6 /* ZLFetchImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050BC2C5F1CC4450F27F19167B4ABC70 /* ZLFetchImageOperation.swift */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B8323BCEBA0773BCBFADBEF52DEF80A8 /* FBSnapshotTestCase.m */; };
 		8F596A7439EBEA679D21FC0B627CD80B /* Pods-YYNative_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 380830A62FCF6CBC391A2253FCAF01A1 /* Pods-YYNative_Example-dummy.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95301EF5703D1E61B61EACAA545B70C7 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BF8586A136FFCFECC2F807267C851D /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9428067ED9D04554FC75718DDEBE2770 /* Pods-YYNative_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE7BFD38D49DB422E3AF031B0E96B23 /* Pods-YYNative_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C2868E37F404D33CBC71A5E1E4A2 /* SwiftSupport.swift */; };
-		A0D4C994DA99753AF4CF3347283FCD5D /* ZLAlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091BEB3DDB989FA2A734B80DBBB2AA6D /* ZLAlbumListCell.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCD60C56FAEC9EC06EFAEA53D8574E2 /* UIImage+Snapshot.m */; };
-		A5573A94D05706BFB77694F93FA8C01C /* Cell+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7C49359116353A1FEC72EF041B056 /* Cell+ZLPhotoBrowser.swift */; };
+		96A8DC96807386BF2B9B5BB7260DF950 /* ZLLanguageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDE439FE9E24E50D65AC772CF528C3 /* ZLLanguageDefine.swift */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1A33D67D2AEFCDC9A6401DA871490 /* SwiftSupport.swift */; };
+		A0DA4CA9ADB9B29CEBE728A018C87FE0 /* Bundle+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04C42B046F32D6DCFB79DF3B1703C /* Bundle+ZLPhotoBrowser.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC9524B5D16EBED2807F66370A72F2 /* UIImage+Snapshot.m */; };
+		A67F05166F048AAF3D46EBEC389E6519 /* ZLPhotoConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1829D555C2B2D45DFACF346E6ED8B4 /* ZLPhotoConfiguration.swift */; };
 		A8942535F9858B8CBAE0568EA4DA19DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
-		ADEF53A1E5CF37E7B564806C0B82E311 /* ZLPhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199F80C8D0E1253252C8D5091743456 /* ZLPhotoPreviewViewController.swift */; };
-		AE122B7137F32D98CA3C2A2D9C0B3A14 /* ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A924B755F2F21BB3F8BA2EFD3936EE4 /* ZLPhotoBrowser.swift */; };
+		ACC86D9F11026B017D58CF031C068AAE /* ZLProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC6EDCC1A5D7D1A8E41A194ED965A1 /* ZLProgressView.swift */; };
+		AFAFFA5B09D35F24E4171555A448AAE4 /* ZLPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD14A6F8C8D8B4B064A6B98F43589F1A /* ZLPhotoBrowser.framework */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
-		B4893842250B674A4A6DB37B683C6A04 /* ZLClipImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D8047FFBF697E9C732EF3C9D3820F0 /* ZLClipImageViewController.swift */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = AE80142EECC9CABCA7BA61BBEC762F8E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C1079A9AD92EC20AEFE339BAC0F5D0BF /* ZLPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E93B617A5D07780010298086EC0852B7 /* ZLPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 643565D0BC0E1F3920DD7A0A93F30C04 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD36B6DF45771D908565516BAD79AB5A /* ZLGeneralDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C32F59442E77B079988C2907DB5DF2B /* ZLGeneralDefine.swift */; };
-		D01DE5D4189EC9BF8B086A05A530C85D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F15B77D6DC0013F722530A208399E2 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D2252D661BFB5B8EE28B3058AD0B3925 /* UIImage+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAE7C90EB1BC60C06780F226F6E67C /* UIImage+ZLPhotoBrowser.swift */; };
-		D4C6DD7B149A028A0E72AEE0BC7818BB /* YYPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27A6A1489582EF83731381F6F90D54 /* YYPhotoManager.swift */; };
-		D4FAD784C16E2207CB5ADE10F915C00D /* ZLImageNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34453BA3A56468949B63774990FE108E /* ZLImageNavController.swift */; };
-		DA309C615DD2AB56575F74F16D98AFB4 /* ZLPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22701A53F11189E17B413FBDEABEB442 /* ZLPhotoBrowser-dummy.m */; };
-		DE3710014BDEBC8F17496812C330F6B7 /* ZLPreviewImagePopInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31001A4ABFA43F8C4B9C691E184847F5 /* ZLPreviewImagePopInteractiveTransition.swift */; };
+		B6830AB4E9A7FE0E99BB1F87A3A26508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A72E355612FDD8639C965C2CDDCD186 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD6D65A6D576E50CFD3C343100914B4E /* ZLPhotoPreviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8876888833D649FAE703C2553812E /* ZLPhotoPreviewSheet.swift */; };
+		C2422564430073C743B660DF5B636D14 /* ZLAlbumListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B8DBF213B80B8675AC3A4FABCFFCC /* ZLAlbumListModel.swift */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D30A431DD22DEF36D9FD037F66ABF4 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6CB8B57A6E2D2C834FFD8296F5846EC /* ZLThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C88BE54C630FC5D96B0F8EF341602AE /* ZLThumbnailViewController.swift */; };
+		CB6028F43327DEF3FBAF639857A81A13 /* ZLPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9015B41BD2774B5E33879B75C7122 /* ZLPhotoModel.swift */; };
+		CD354A746DAF8639EB4A6D96444111FB /* ZLEditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8A3FEF81D1A96AC44CA4635F2EA34 /* ZLEditImageViewController.swift */; };
+		CEF408A2EB96541B6A640C0543D4D3B2 /* ZLGeneralDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A60923AA8B63BDB7838C6416EC8F035 /* ZLGeneralDefine.swift */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A9B5710870967E2E6D3921A73BED0C /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D30EA0A9333A340462A123105F88E973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */; };
+		D457502EE0C444E13694BE7FBE817284 /* YYNative-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD224D072BF905DBEEA4B875CBAABA0 /* YYNative-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D59A138A23FC23B44842AADBDC7A0EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632CD4A19903B412EAE33484472D3F7 /* UIKit.framework */; };
+		D75C24FC1C2C44E84CEBCCBE95047C0E /* ZLClipImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F71697C4D05B5C366D8079286DB498F /* ZLClipImageViewController.swift */; };
+		D7A21FF5A2CF3FE92F5CE53F0C84967F /* ZLPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = B61161FB9294B01A6A45A4130D5E8796 /* ZLPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA7D5A12F91EE40FC01866D047A10DFB /* ZLPhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125F8BAACA34AA6F782FF43EA608AEC /* ZLPhotoPreviewViewController.swift */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632CD4A19903B412EAE33484472D3F7 /* UIKit.framework */; };
-		E3783695CF173C99215CAD219ABD47E4 /* ZLFetchImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC63DED6EA6DCF8AD20C5C878EED24 /* ZLFetchImageOperation.swift */; };
-		E5A03B06AB2F122F936C08590EB27F6B /* ZLEditVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E2B3DE494010EEE6E7C44E270ADB0 /* ZLEditVideoViewController.swift */; };
-		E5A31678C6D958200EFA5C9226B8E6D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE0C39FABE9DCF2E23C53E840CDD577 /* AVFoundation.framework */; };
-		E86A1C34850A9A53E8BD6510FF4BB2BA /* ZLPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A88E1ACAD855C90DD7B6B534E40820 /* ZLPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB1489FFF1D712B6100B7C50F48F35E /* FBSnapshotTestCasePlatform.m */; };
-		ED8F1EF557767A55B25C22BC7102E265 /* YYNative-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334B4C073FF860EE657320018A274560 /* YYNative-dummy.m */; };
-		EE64D6E972331BBF9274B62182CAC784 /* ZLAlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A839BBD682A5A5389792CA020F62B /* ZLAlbumListController.swift */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C80B62AA5864A3BFE029E52FB0D1C9 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F3CE94F201F2BF35B94255D37D4E6FBF /* YYRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C555BE94E28A304C34C4E4A1E584EB /* YYRecorderManager.swift */; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFA272A1F07420864D32F8079CB14A7 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDE134DFBF075C499515D1E2067D710E /* ZLEditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B364E470DEBEEBD648CC4994165B471 /* ZLEditImageViewController.swift */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F63EC085C3E96F0B1AF1875CF5CD41 /* FBSnapshotTestCasePlatform.m */; };
+		F09FF71924FC29E7356E5494A3C83EE1 /* YYNative-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790892B3B463ED1BA2F59460A58009D8 /* YYNative-dummy.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D536E919FFA11237341F55C4B9C5A5F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1D0C7E85125E3EC1642C0801C8CA73D /* ZLPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566038D1118F4C36B5C55E3FC0176C0 /* ZLPhotoManager.swift */; };
+		F6C4087EF9A210E6C2848283D82973E9 /* ZLPreviewImagePopInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0772596EAD7078609E752A2E56D9C /* ZLPreviewImagePopInteractiveTransition.swift */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 024AB3B616045E039922AF3D0B561673 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80848DEEF41192FE69573E51838F8B2 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720431634FD0CFBBA5241CD8CA3BB3F1 /* Photos.framework */; };
+		FD4D9A1314DBA6A66AEDE935EA88600D /* YYWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD0D49B063EA11C0E9037F3EEF61F2 /* YYWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,14 +99,21 @@
 			remoteGlobalIDString = B742550C3DA33EAAED155DC17FACAB7F;
 			remoteInfo = YYNative;
 		};
-		2537EEFA376315F20DF2FF7BB8158578 /* PBXContainerItemProxy */ = {
+		31E85A265EB21DBA388D93885BC97122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BED1A5326FE4418AB256C5B9680EA7E;
+			remoteInfo = "YYNative-YYNative";
+		};
+		4A314D167A92C8AE43D95B78D12C52E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2FAF03761A44702490259F857A848B42;
 			remoteInfo = ZLPhotoBrowser;
 		};
-		4A314D167A92C8AE43D95B78D12C52E9 /* PBXContainerItemProxy */ = {
+		766BAC22A16E0D5BDAA7994D60C5FD6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -126,118 +138,134 @@
 
 /* Begin PBXFileReference section */
 		00313BF45AF4217B4B527A74596356F1 /* Pods-YYNative_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYNative_Example.release.xcconfig"; sourceTree = "<group>"; };
-		003B2DDE661BD696B00E53218216A320 /* ZLThumbnailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLThumbnailViewController.swift; path = Sources/General/ZLThumbnailViewController.swift; sourceTree = "<group>"; };
-		0654C3ADF5C0488D328B921ACDEE053B /* ZLPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLPhotoBrowser.modulemap; sourceTree = "<group>"; };
-		080A0EBC6EE2BD190BE847A7F8FCAEDB /* YYNative-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYNative-Info.plist"; sourceTree = "<group>"; };
-		091BEB3DDB989FA2A734B80DBBB2AA6D /* ZLAlbumListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListCell.swift; path = Sources/General/ZLAlbumListCell.swift; sourceTree = "<group>"; };
-		0A10EF4C09889A609B7910F067DCE5BE /* ZLPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
-		0D07AE7CF1C2472B590137E87E325AA1 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		0F55CC579AB83F53FECFB5AF6FEFB714 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		10DC63DED6EA6DCF8AD20C5C878EED24 /* ZLFetchImageOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLFetchImageOperation.swift; path = Sources/General/ZLFetchImageOperation.swift; sourceTree = "<group>"; };
-		12C58E22387059AFFF612C978FE8B558 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		176E2B3DE494010EEE6E7C44E270ADB0 /* ZLEditVideoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditVideoViewController.swift; path = Sources/Edit/ZLEditVideoViewController.swift; sourceTree = "<group>"; };
-		18224867C4E82CF38B5C0E907180CEC0 /* ZLPhotoConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoConfiguration.swift; path = Sources/General/ZLPhotoConfiguration.swift; sourceTree = "<group>"; };
-		199142841689B310DC2E80C6CF7E66E9 /* ZLProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLProgressView.swift; path = Sources/General/ZLProgressView.swift; sourceTree = "<group>"; };
+		024AB3B616045E039922AF3D0B561673 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		038A96E55AD3539CE6B0BE4DCCE6F790 /* UIColor+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIColor+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
+		04662B1BFF626FB257825DE7F04CFC8F /* YYNative-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYNative-prefix.pch"; sourceTree = "<group>"; };
+		050BC2C5F1CC4450F27F19167B4ABC70 /* ZLFetchImageOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLFetchImageOperation.swift; path = Sources/General/ZLFetchImageOperation.swift; sourceTree = "<group>"; };
+		06D9015B41BD2774B5E33879B75C7122 /* ZLPhotoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoModel.swift; path = Sources/General/ZLPhotoModel.swift; sourceTree = "<group>"; };
+		09DF6D388BF46147788C7C483508D1E1 /* UIControl+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIControl+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
+		0AA34D4C8443561561A650166784365D /* YYNative.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYNative.modulemap; sourceTree = "<group>"; };
+		0C057F488A567AF6DE57E21A695B1F26 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		0C83197E0F49D3C3950A9AF6182BF1D9 /* ZLPreviewImagePopAnimatedTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPreviewImagePopAnimatedTransition.swift; path = Sources/Animation/ZLPreviewImagePopAnimatedTransition.swift; sourceTree = "<group>"; };
+		0C88BE54C630FC5D96B0F8EF341602AE /* ZLThumbnailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLThumbnailViewController.swift; path = Sources/General/ZLThumbnailViewController.swift; sourceTree = "<group>"; };
+		14035DAC2F1625A991D156AA425FE8C3 /* ZLEditVideoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditVideoViewController.swift; path = Sources/Edit/ZLEditVideoViewController.swift; sourceTree = "<group>"; };
+		1BC0EAA273152E1FCBAE5DF1AF4F4220 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		1FF04C42B046F32D6DCFB79DF3B1703C /* Bundle+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+ZLPhotoBrowser.swift"; path = "Sources/Extensions/Bundle+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
 		22599A3661444BF86D0BB2D7C9800A9F /* Pods-YYNative_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYNative_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		22701A53F11189E17B413FBDEABEB442 /* ZLPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
-		27C80B62AA5864A3BFE029E52FB0D1C9 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		2A924B755F2F21BB3F8BA2EFD3936EE4 /* ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoBrowser.swift; path = Sources/General/ZLPhotoBrowser.swift; sourceTree = "<group>"; };
-		2B364E470DEBEEBD648CC4994165B471 /* ZLEditImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditImageViewController.swift; path = Sources/Edit/ZLEditImageViewController.swift; sourceTree = "<group>"; };
+		247DEA9417BB1552C160BBAB14FC89CF /* YYNative-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYNative-Info.plist"; sourceTree = "<group>"; };
+		288C4278CEABEAB2352ABB0307BD213B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		2CE576C1F31F9D9C9D3F322ED4D80711 /* Pods-YYNative_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYNative_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DFD4CB90FC2243B78DA0415BBC66EAF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		2E8ED8F83320584B70760177C659259D /* UIControl+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIControl+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
-		31001A4ABFA43F8C4B9C691E184847F5 /* ZLPreviewImagePopInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPreviewImagePopInteractiveTransition.swift; path = Sources/Animation/ZLPreviewImagePopInteractiveTransition.swift; sourceTree = "<group>"; };
-		334B4C073FF860EE657320018A274560 /* YYNative-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYNative-dummy.m"; sourceTree = "<group>"; };
-		34453BA3A56468949B63774990FE108E /* ZLImageNavController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLImageNavController.swift; path = Sources/General/ZLImageNavController.swift; sourceTree = "<group>"; };
-		349C172BAFF60949C8E91D85B63B7374 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		380830A62FCF6CBC391A2253FCAF01A1 /* Pods-YYNative_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYNative_Example-dummy.m"; sourceTree = "<group>"; };
-		380E66DDA7193861AEDCCA492785938D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		39B4E73BDDE0D00DDC05D1ADDC58482B /* Pods_YYNative_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNative_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B54B29D069610C7F07002A99B7CC72F /* ZLEmbedAlbumListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEmbedAlbumListView.swift; path = Sources/General/ZLEmbedAlbumListView.swift; sourceTree = "<group>"; };
-		3C32F59442E77B079988C2907DB5DF2B /* ZLGeneralDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLGeneralDefine.swift; path = Sources/General/ZLGeneralDefine.swift; sourceTree = "<group>"; };
-		3D70F8A4067E86ACEB4984D30D2427A1 /* ZLPhotoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoManager.swift; path = Sources/General/ZLPhotoManager.swift; sourceTree = "<group>"; };
+		39B4E73BDDE0D00DDC05D1ADDC58482B /* Pods_YYNative_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYNative_Example.framework; path = "Pods-YYNative_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A72E355612FDD8639C965C2CDDCD186 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		3D32522B6EFB9C8C6CF5752BCA30C4D4 /* ZLAlbumListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListCell.swift; path = Sources/General/ZLAlbumListCell.swift; sourceTree = "<group>"; };
+		3D89C24BD234FCDAA4BE3031C0F0479C /* YYScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYScanViewController.swift; path = YYNative/Classes/YYScanViewController.swift; sourceTree = "<group>"; };
 		3F478E8AC2FD4506C60D4F42C11A18AD /* Pods-YYNative_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYNative_Tests-Info.plist"; sourceTree = "<group>"; };
-		40BEA2F3688BC63B6262C3DF0F60EA6E /* ZLPhotoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoModel.swift; path = Sources/General/ZLPhotoModel.swift; sourceTree = "<group>"; };
-		42D8047FFBF697E9C732EF3C9D3820F0 /* ZLClipImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLClipImageViewController.swift; path = Sources/Edit/ZLClipImageViewController.swift; sourceTree = "<group>"; };
-		44B0E044BACD6683AA45492155BB72A9 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		40E04EBC79554D18EB84CE45CC659036 /* ZLClipImageDismissAnimatedTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLClipImageDismissAnimatedTransition.swift; path = Sources/Animation/ZLClipImageDismissAnimatedTransition.swift; sourceTree = "<group>"; };
+		45C55848107A6454268B94EBF6015CBA /* ZLImageNavController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLImageNavController.swift; path = Sources/General/ZLImageNavController.swift; sourceTree = "<group>"; };
+		46D30A431DD22DEF36D9FD037F66ABF4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		47755BA2C8A41191250E87B9180F9177 /* ZLPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
 		4798E71A56391342429313DF8575594A /* Pods-YYNative_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYNative_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		484A2B1EB2B86B85D3983FD2FD37B3EE /* YYNative.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYNative.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		49C555BE94E28A304C34C4E4A1E584EB /* YYRecorderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYRecorderManager.swift; path = YYNative/Classes/YYRecorderManager.swift; sourceTree = "<group>"; };
-		4ADAE7C90EB1BC60C06780F226F6E67C /* UIImage+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIImage+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
+		47F63EC085C3E96F0B1AF1875CF5CD41 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		4AE0C39FABE9DCF2E23C53E840CDD577 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		4BEFB3413AB75EFCFE8A56268D4515DD /* YYNative-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYNative-umbrella.h"; sourceTree = "<group>"; };
+		4BF0772596EAD7078609E752A2E56D9C /* ZLPreviewImagePopInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPreviewImagePopInteractiveTransition.swift; path = Sources/Animation/ZLPreviewImagePopInteractiveTransition.swift; sourceTree = "<group>"; };
 		5257D0B3ACE83E68353FA159A7BA7B7D /* Pods-YYNative_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYNative_Tests.modulemap"; sourceTree = "<group>"; };
-		54B57A545A8FE798F68643EB01073A6F /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		5672259428CD873954BA4FBE2A22E0AF /* ZLPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotoBrowser.debug.xcconfig; sourceTree = "<group>"; };
+		5347CD31976EB6075B1CDB6BC92473B2 /* ZLPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
+		541A7F8064F61A1C132C8B7708AA79F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5AA4AF8C06F662C094FEB394138E296B /* Pods-YYNative_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYNative_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C3AD5ECD5BFAAFFCE9DE1D6F28B3D2F /* String+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ZLPhotoBrowser.swift"; path = "Sources/Extensions/String+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C5E16133E00A6E01B10B5A6D5D276CC /* YYWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYWebView.swift; path = YYNative/Classes/YYWebView.swift; sourceTree = "<group>"; };
-		5D51A53E87538F6B3818CE10C9143C34 /* ZLPreviewImagePopAnimatedTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPreviewImagePopAnimatedTransition.swift; path = Sources/Animation/ZLPreviewImagePopAnimatedTransition.swift; sourceTree = "<group>"; };
-		61DEB5C91BEE1799AC6B7337D66F36E4 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		6376A19450812ED4922F1080039F010A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7C699D6EF8DEF4BA1B9C076EF77830 /* ZLPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		5F71697C4D05B5C366D8079286DB498F /* ZLClipImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLClipImageViewController.swift; path = Sources/Edit/ZLClipImageViewController.swift; sourceTree = "<group>"; };
+		60C70AC02A3B100EDBB8BB3DBD893D70 /* String+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ZLPhotoBrowser.swift"; path = "Sources/Extensions/String+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
+		60FBAAB3F4CFA432BBBD387C4E068C34 /* ZLProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLProgressHUD.swift; path = Sources/General/ZLProgressHUD.swift; sourceTree = "<group>"; };
+		6249249BF1AA222E6AADEF3688B426CD /* YYNative.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YYNative.bundle; path = "YYNative-YYNative.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A7A4A45C0A4407869699347F63B9B5 /* Pods-YYNative_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYNative_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		643565D0BC0E1F3920DD7A0A93F30C04 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		652C1F723634A18B47E23CEAAB6682AB /* Pods-YYNative_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYNative_Example-frameworks.sh"; sourceTree = "<group>"; };
 		66A492B4DA2304E6B483DC02E3B83CF8 /* Pods-YYNative_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYNative_Tests-dummy.m"; sourceTree = "<group>"; };
-		6C7F5FE437F035FFD35F6D07592233A7 /* ZLPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZLPhotoBrowser.bundle; path = Sources/ZLPhotoBrowser.bundle; sourceTree = "<group>"; };
+		67EEC1C70016DD2DDD7D1A4813C4240C /* UIImage+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIImage+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
+		6B6549D18AD35041D2F29BAA7665ABB5 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		6C91CB8511A6254107A3871488D95415 /* Pods-YYNative_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYNative_Example-umbrella.h"; sourceTree = "<group>"; };
+		6CEB93A7A7B0FDE3E1ACD4EF3C19A90F /* ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoBrowser.swift; path = Sources/General/ZLPhotoBrowser.swift; sourceTree = "<group>"; };
+		70130C43B6E1D457E9CBAB691CDEBA38 /* ZLPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotoBrowser.xcconfig; sourceTree = "<group>"; };
 		720431634FD0CFBBA5241CD8CA3BB3F1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		7235CCECCF84A900814F17B9607891A2 /* YYNative.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYNative.modulemap; sourceTree = "<group>"; };
 		7632CD4A19903B412EAE33484472D3F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7646266AF3722E97182EBEA96A00CE06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76CA55D1DDA623190DD7FA314A998CF9 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		7742A1553C48E7644F9C8815F914827A /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		7AA0D90153DCD0BAFF70F9FB2BC3CE73 /* UIColor+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIColor+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
-		7DFC9491EE3B20C6C6642AC47C53FC95 /* ZLPhotoPreviewSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewSheet.swift; path = Sources/General/ZLPhotoPreviewSheet.swift; sourceTree = "<group>"; };
-		7EB1489FFF1D712B6100B7C50F48F35E /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		8347C4135F72D5BDCE00BD3ECFDB9D67 /* ZLCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCameraCell.swift; path = Sources/General/ZLCameraCell.swift; sourceTree = "<group>"; };
-		8371C2868E37F404D33CBC71A5E1E4A2 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		8901407FB34B5A1D3E6750E98C402846 /* ZLCustomCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCustomCamera.swift; path = Sources/Camera/ZLCustomCamera.swift; sourceTree = "<group>"; };
-		8DFA272A1F07420864D32F8079CB14A7 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		8E600A023F9095B7A1CC25A2D04B2358 /* ZLThumbnailPhotoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLThumbnailPhotoCell.swift; path = Sources/General/ZLThumbnailPhotoCell.swift; sourceTree = "<group>"; };
+		790892B3B463ED1BA2F59460A58009D8 /* YYNative-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYNative-dummy.m"; sourceTree = "<group>"; };
+		7A60923AA8B63BDB7838C6416EC8F035 /* ZLGeneralDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLGeneralDefine.swift; path = Sources/General/ZLGeneralDefine.swift; sourceTree = "<group>"; };
+		7D325EDCE23CFAA1349786169B18DE75 /* image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = image.xcassets; path = YYNative/Assets/image.xcassets; sourceTree = "<group>"; };
+		7D448EC7E96B28D1B19CFFD65A40707A /* ZLThumbnailPhotoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLThumbnailPhotoCell.swift; path = Sources/General/ZLThumbnailPhotoCell.swift; sourceTree = "<group>"; };
+		81FC9524B5D16EBED2807F66370A72F2 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		8FA6FE21F908BDBC82288729DBC414A2 /* Pods-YYNative_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYNative_Example-Info.plist"; sourceTree = "<group>"; };
-		905D63F874C4A9676922336C016DFF67 /* ZLClipImageDismissAnimatedTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLClipImageDismissAnimatedTransition.swift; path = Sources/Animation/ZLClipImageDismissAnimatedTransition.swift; sourceTree = "<group>"; };
-		95301EF5703D1E61B61EACAA545B70C7 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		9122BC7F9D4D200A28CB4C0982F5DDE2 /* ZLPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZLPhotoBrowser.bundle; path = Sources/ZLPhotoBrowser.bundle; sourceTree = "<group>"; };
+		92EDE439FE9E24E50D65AC772CF528C3 /* ZLLanguageDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLLanguageDefine.swift; path = Sources/General/ZLLanguageDefine.swift; sourceTree = "<group>"; };
 		96287EFC01B8817FCB7A0EB371FA1C04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		96A88E1ACAD855C90DD7B6B534E40820 /* ZLPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotoBrowser.h; path = Sources/ZLPhotoBrowser.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96BB1CC28A5CC227597621786FE9ABA8 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		98AA7DFDD8C7DEE057211CE74D99CB7E /* Cell+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Cell+ZLPhotoBrowser.swift"; path = "Sources/Extensions/Cell+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
+		99005E6DF6CEC91482B675C015119EBE /* ResourceBundle-YYNative-YYNative-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YYNative-YYNative-Info.plist"; sourceTree = "<group>"; };
+		9A1829D555C2B2D45DFACF346E6ED8B4 /* ZLPhotoConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoConfiguration.swift; path = Sources/General/ZLPhotoConfiguration.swift; sourceTree = "<group>"; };
+		9D536E919FFA11237341F55C4B9C5A5F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD224D072BF905DBEEA4B875CBAABA0 /* YYNative-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYNative-umbrella.h"; sourceTree = "<group>"; };
 		9E7C6371C45528F666562961B7E76741 /* Pods-YYNative_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYNative_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9F041E14FA970216B672ACF14035F301 /* ZLPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
 		9FFA8B1A0AB4DD8D806CF2127DAD747F /* Pods-YYNative_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYNative_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A250E05526219B497E1BF7E4C8FB4BFF /* YYNative.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYNative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A92A839BBD682A5A5389792CA020F62B /* ZLAlbumListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListController.swift; path = Sources/General/ZLAlbumListController.swift; sourceTree = "<group>"; };
-		AE80142EECC9CABCA7BA61BBEC762F8E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		AE827F28D1DCB6E0A3E1A20800B6578E /* Pods_YYNative_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNative_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0F7C49359116353A1FEC72EF041B056 /* Cell+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Cell+ZLPhotoBrowser.swift"; path = "Sources/Extensions/Cell+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
-		B41F787A5B709461321B5FDCB2F9ACAE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		BA27A6A1489582EF83731381F6F90D54 /* YYPhotoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYPhotoManager.swift; path = YYNative/Classes/YYPhotoManager.swift; sourceTree = "<group>"; };
-		BA7DFC2B97ECB099F3899D95CC2F19EA /* ZLAlbumListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListModel.swift; path = Sources/General/ZLAlbumListModel.swift; sourceTree = "<group>"; };
-		BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A125F8BAACA34AA6F782FF43EA608AEC /* ZLPhotoPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewViewController.swift; path = Sources/General/ZLPhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		A1B085C66E6EF39777D226A8EE20C331 /* YYNative.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYNative.xcconfig; sourceTree = "<group>"; };
+		A250E05526219B497E1BF7E4C8FB4BFF /* YYNative.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYNative.framework; path = YYNative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CC6EDCC1A5D7D1A8E41A194ED965A1 /* ZLProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLProgressView.swift; path = Sources/General/ZLProgressView.swift; sourceTree = "<group>"; };
+		A4F9D78B94B9F82F454E833D3819E819 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		A858949A077EF88D37D38F5C2C54A9E5 /* ZLEmbedAlbumListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEmbedAlbumListView.swift; path = Sources/General/ZLEmbedAlbumListView.swift; sourceTree = "<group>"; };
+		AE827F28D1DCB6E0A3E1A20800B6578E /* Pods_YYNative_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYNative_Tests.framework; path = "Pods-YYNative_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06B8DBF213B80B8675AC3A4FABCFFCC /* ZLAlbumListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListModel.swift; path = Sources/General/ZLAlbumListModel.swift; sourceTree = "<group>"; };
+		B192D4789CA5698CF2F6FEE85754D49B /* ZLCustomCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCustomCamera.swift; path = Sources/Camera/ZLCustomCamera.swift; sourceTree = "<group>"; };
+		B1BCFE18D7ADD7D3C0C9F728387ABD26 /* ZLPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		B2A73ECA02572A08429C10C88FBC3C76 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		B61161FB9294B01A6A45A4130D5E8796 /* ZLPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotoBrowser.h; path = Sources/ZLPhotoBrowser.h; sourceTree = "<group>"; };
+		B8323BCEBA0773BCBFADBEF52DEF80A8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		B886627A90CC6AE42159EDB4BD57E938 /* YYNativeDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYNativeDefine.swift; path = YYNative/Classes/YYNativeDefine.swift; sourceTree = "<group>"; };
+		B9BF8586A136FFCFECC2F807267C851D /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLPhotoBrowser.framework; path = ZLPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE52DA275C4A77287ED2CB575509AB98 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		BF222EDE9F315EFF8C9297FE3DA7103D /* YYNative.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYNative.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF38C9FE9976BBAB8B76770F889DAA53 /* Pods-YYNative_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYNative_Example.modulemap"; sourceTree = "<group>"; };
-		C2EDA245DDAD9E0ABF9F3BD3C70152F8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		C5C6EFBF099FCD125A3C7E1EDEBD87A0 /* ZLPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotoBrowser.release.xcconfig; sourceTree = "<group>"; };
 		C717FD9914E290E25C609EA2CE89D4BC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		C9433BC490DD7BA3318095DB268190D6 /* ZLPhotoPreviewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewCell.swift; path = Sources/General/ZLPhotoPreviewCell.swift; sourceTree = "<group>"; };
-		CBA54D0EAF145BE95E032811C1A279E5 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		CC11FC53BC251FADEB0B9871C64A680A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CCE7BFD38D49DB422E3AF031B0E96B23 /* Pods-YYNative_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYNative_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D3FD2CC5A37C82B55BD0334FB01EED0A /* ZLProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLProgressHUD.swift; path = Sources/General/ZLProgressHUD.swift; sourceTree = "<group>"; };
-		D87182B8C362967BF1DB64DD658BCB77 /* YYNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYNative.release.xcconfig; sourceTree = "<group>"; };
+		CDB93B3C2EF22911C3F46B563BBC77FE /* ZLPhotoPreviewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewCell.swift; path = Sources/General/ZLPhotoPreviewCell.swift; sourceTree = "<group>"; };
+		CF88B6EE61C38F424D7C04798A13092E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		D3A9B5710870967E2E6D3921A73BED0C /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		D3AD0D49B063EA11C0E9037F3EEF61F2 /* YYWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYWebView.swift; path = YYNative/Classes/YYWebView.swift; sourceTree = "<group>"; };
+		DB640A4B9319B50D489EFC1C26F38560 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		DD5045BFBA4E04CEDA8C43BFE06C7F4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DD65399016F64A1B4FCC169AAA07084F /* ZLAlbumListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListController.swift; path = Sources/General/ZLAlbumListController.swift; sourceTree = "<group>"; };
+		E3605B6ED0A7FEF835E0BA5F3E53BEB2 /* ZLPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
+		E566038D1118F4C36B5C55E3FC0176C0 /* ZLPhotoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoManager.swift; path = Sources/General/ZLPhotoManager.swift; sourceTree = "<group>"; };
 		E6DC00211168430A70E5E9950C78F433 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/PhotosUI.framework; sourceTree = DEVELOPER_DIR; };
-		E7DD8A6810252C8A57D4BCA1D51C290D /* ZLLanguageDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLLanguageDefine.swift; path = Sources/General/ZLLanguageDefine.swift; sourceTree = "<group>"; };
-		E93B617A5D07780010298086EC0852B7 /* ZLPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
-		E9F15B77D6DC0013F722530A208399E2 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		EDCD60C56FAEC9EC06EFAEA53D8574E2 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		F199F80C8D0E1253252C8D5091743456 /* ZLPhotoPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewViewController.swift; path = Sources/General/ZLPhotoPreviewViewController.swift; sourceTree = "<group>"; };
-		F88617915FC219EB3099CB3559421028 /* Bundle+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+ZLPhotoBrowser.swift"; path = "Sources/Extensions/Bundle+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
-		FACFAD22F4F2AD61457EF82FEDD1046A /* YYNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYNative.debug.xcconfig; sourceTree = "<group>"; };
-		FC6E453DB1C0B413D073FF9620663503 /* YYNative-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYNative-prefix.pch"; sourceTree = "<group>"; };
+		ECC8A3FEF81D1A96AC44CA4635F2EA34 /* ZLEditImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditImageViewController.swift; path = Sources/Edit/ZLEditImageViewController.swift; sourceTree = "<group>"; };
+		EDA8876888833D649FAE703C2553812E /* ZLPhotoPreviewSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewSheet.swift; path = Sources/General/ZLPhotoPreviewSheet.swift; sourceTree = "<group>"; };
+		F05877031DB043DEBC5DFA3CA82E0980 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		F5E1D663E4424C6045010276E998AD77 /* YYWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYWebViewController.swift; path = YYNative/Classes/YYWebViewController.swift; sourceTree = "<group>"; };
+		F64551BA0574231450AC5631B8C76AAB /* ZLCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCameraCell.swift; path = Sources/General/ZLCameraCell.swift; sourceTree = "<group>"; };
+		FA4517D41F1F2962F35EE757FFA2FFC2 /* YYRecorderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYRecorderManager.swift; path = YYNative/Classes/YYRecorderManager.swift; sourceTree = "<group>"; };
+		FC9B58F94D02D74F4E99CAE797D1256A /* YYPhotoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYPhotoManager.swift; path = YYNative/Classes/YYPhotoManager.swift; sourceTree = "<group>"; };
 		FD14A6F8C8D8B4B064A6B98F43589F1A /* ZLPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA1A33D67D2AEFCDC9A6401DA871490 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		FE956295C5B19E1D747AB8E0B8ADDF8B /* Pods-YYNative_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYNative_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03118E7A291CB4018E858ACBDF8E8E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39830620C52AF4470ADD6E29DF009692 /* AVFoundation.framework in Frameworks */,
+				22F2A250FEA8069947013FEAED9FE7E4 /* CoreMotion.framework in Frameworks */,
+				B6830AB4E9A7FE0E99BB1F87A3A26508 /* Foundation.framework in Frameworks */,
+				F80848DEEF41192FE69573E51838F8B2 /* Photos.framework in Frameworks */,
+				103C349B34EB924206BAE3D098A7CC13 /* PhotosUI.framework in Frameworks */,
+				D59A138A23FC23B44842AADBDC7A0EDF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D020B867472B1124E5640F7C8B576EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,25 +274,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C36C6CBC2502DC9B4716B9DAC1C308E /* Frameworks */ = {
+		902EBE4942C35BC8369D5AE8DA7C8310 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A31678C6D958200EFA5C9226B8E6D0 /* AVFoundation.framework in Frameworks */,
-				1291A9BD9F74591B40FA44399FEF62EF /* CoreMotion.framework in Frameworks */,
-				8963BBEAB77483E20DC1BA4E95CE77DD /* Foundation.framework in Frameworks */,
-				6311493278BB2AF52CD3CD80E08A6DF0 /* Photos.framework in Frameworks */,
-				0A2700A7B2032BB1C849D5B45BAA553A /* PhotosUI.framework in Frameworks */,
-				08160F0BB899B1FFF8192ED7AAE76763 /* UIKit.framework in Frameworks */,
+				D30EA0A9333A340462A123105F88E973 /* Foundation.framework in Frameworks */,
+				AFAFFA5B09D35F24E4171555A448AAE4 /* ZLPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8604F8AF5A70840149A57E25C15DE488 /* Frameworks */ = {
+		9731AD81F758F4AC5BCF89DE120C005C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01DE5D4189EC9BF8B086A05A530C85D /* Foundation.framework in Frameworks */,
-				7E5D21F6F5370416B4CA4D073568F63D /* ZLPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,70 +312,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AB91E11847CB18F9B5AF33DC96A669F /* ZLPhotoBrowser */ = {
+		00A0CE7ADFC1D679CEA1DE13811CC842 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				395CAA053C2DDAC701EB838872CA1E18 /* Core */,
-				791C1D47BFC0807B4063957C22B3621E /* Resources */,
-				2791B749E63DA3BFACE40CE1AD4E3CCF /* Support Files */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				39B4E73BDDE0D00DDC05D1ADDC58482B /* Pods_YYNative_Example.framework */,
+				AE827F28D1DCB6E0A3E1A20800B6578E /* Pods_YYNative_Tests.framework */,
+				6249249BF1AA222E6AADEF3688B426CD /* YYNative.bundle */,
+				A250E05526219B497E1BF7E4C8FB4BFF /* YYNative.framework */,
+				BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser.framework */,
 			);
-			path = ZLPhotoBrowser;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		2791B749E63DA3BFACE40CE1AD4E3CCF /* Support Files */ = {
+		1B0A6484528D42CEB792489D01AD7D11 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0654C3ADF5C0488D328B921ACDEE053B /* ZLPhotoBrowser.modulemap */,
-				22701A53F11189E17B413FBDEABEB442 /* ZLPhotoBrowser-dummy.m */,
-				9F041E14FA970216B672ACF14035F301 /* ZLPhotoBrowser-Info.plist */,
-				0A10EF4C09889A609B7910F067DCE5BE /* ZLPhotoBrowser-prefix.pch */,
-				E93B617A5D07780010298086EC0852B7 /* ZLPhotoBrowser-umbrella.h */,
-				5672259428CD873954BA4FBE2A22E0AF /* ZLPhotoBrowser.debug.xcconfig */,
-				C5C6EFBF099FCD125A3C7E1EDEBD87A0 /* ZLPhotoBrowser.release.xcconfig */,
+				9122BC7F9D4D200A28CB4C0982F5DDE2 /* ZLPhotoBrowser.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ZLPhotoBrowser";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		395CAA053C2DDAC701EB838872CA1E18 /* Core */ = {
+		2D99CB57D68C75005AE15710B24FE162 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F88617915FC219EB3099CB3559421028 /* Bundle+ZLPhotoBrowser.swift */,
-				B0F7C49359116353A1FEC72EF041B056 /* Cell+ZLPhotoBrowser.swift */,
-				5C3AD5ECD5BFAAFFCE9DE1D6F28B3D2F /* String+ZLPhotoBrowser.swift */,
-				7AA0D90153DCD0BAFF70F9FB2BC3CE73 /* UIColor+ZLPhotoBrowser.swift */,
-				2E8ED8F83320584B70760177C659259D /* UIControl+ZLPhotoBrowser.swift */,
-				4ADAE7C90EB1BC60C06780F226F6E67C /* UIImage+ZLPhotoBrowser.swift */,
-				091BEB3DDB989FA2A734B80DBBB2AA6D /* ZLAlbumListCell.swift */,
-				A92A839BBD682A5A5389792CA020F62B /* ZLAlbumListController.swift */,
-				BA7DFC2B97ECB099F3899D95CC2F19EA /* ZLAlbumListModel.swift */,
-				8347C4135F72D5BDCE00BD3ECFDB9D67 /* ZLCameraCell.swift */,
-				905D63F874C4A9676922336C016DFF67 /* ZLClipImageDismissAnimatedTransition.swift */,
-				42D8047FFBF697E9C732EF3C9D3820F0 /* ZLClipImageViewController.swift */,
-				8901407FB34B5A1D3E6750E98C402846 /* ZLCustomCamera.swift */,
-				2B364E470DEBEEBD648CC4994165B471 /* ZLEditImageViewController.swift */,
-				176E2B3DE494010EEE6E7C44E270ADB0 /* ZLEditVideoViewController.swift */,
-				3B54B29D069610C7F07002A99B7CC72F /* ZLEmbedAlbumListView.swift */,
-				10DC63DED6EA6DCF8AD20C5C878EED24 /* ZLFetchImageOperation.swift */,
-				3C32F59442E77B079988C2907DB5DF2B /* ZLGeneralDefine.swift */,
-				34453BA3A56468949B63774990FE108E /* ZLImageNavController.swift */,
-				E7DD8A6810252C8A57D4BCA1D51C290D /* ZLLanguageDefine.swift */,
-				96A88E1ACAD855C90DD7B6B534E40820 /* ZLPhotoBrowser.h */,
-				2A924B755F2F21BB3F8BA2EFD3936EE4 /* ZLPhotoBrowser.swift */,
-				18224867C4E82CF38B5C0E907180CEC0 /* ZLPhotoConfiguration.swift */,
-				3D70F8A4067E86ACEB4984D30D2427A1 /* ZLPhotoManager.swift */,
-				40BEA2F3688BC63B6262C3DF0F60EA6E /* ZLPhotoModel.swift */,
-				C9433BC490DD7BA3318095DB268190D6 /* ZLPhotoPreviewCell.swift */,
-				7DFC9491EE3B20C6C6642AC47C53FC95 /* ZLPhotoPreviewSheet.swift */,
-				F199F80C8D0E1253252C8D5091743456 /* ZLPhotoPreviewViewController.swift */,
-				5D51A53E87538F6B3818CE10C9143C34 /* ZLPreviewImagePopAnimatedTransition.swift */,
-				31001A4ABFA43F8C4B9C691E184847F5 /* ZLPreviewImagePopInteractiveTransition.swift */,
-				D3FD2CC5A37C82B55BD0334FB01EED0A /* ZLProgressHUD.swift */,
-				199142841689B310DC2E80C6CF7E66E9 /* ZLProgressView.swift */,
-				8E600A023F9095B7A1CC25A2D04B2358 /* ZLThumbnailPhotoCell.swift */,
-				003B2DDE661BD696B00E53218216A320 /* ZLThumbnailViewController.swift */,
+				541A7F8064F61A1C132C8B7708AA79F6 /* LICENSE */,
+				CC11FC53BC251FADEB0B9871C64A680A /* README.md */,
+				BF222EDE9F315EFF8C9297FE3DA7103D /* YYNative.podspec */,
 			);
-			name = Core;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3EDEA361811BC7BB3236AF097344CAC8 /* Pods-YYNative_Example */ = {
@@ -382,86 +369,80 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		606DE9A58E94809EB42241C0EA735DEA /* Products */ = {
+		678AA44AC30DA75F778E25B131F3D86C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				39B4E73BDDE0D00DDC05D1ADDC58482B /* Pods_YYNative_Example.framework */,
-				AE827F28D1DCB6E0A3E1A20800B6578E /* Pods_YYNative_Tests.framework */,
-				A250E05526219B497E1BF7E4C8FB4BFF /* YYNative.framework */,
-				BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser.framework */,
+				1FF04C42B046F32D6DCFB79DF3B1703C /* Bundle+ZLPhotoBrowser.swift */,
+				98AA7DFDD8C7DEE057211CE74D99CB7E /* Cell+ZLPhotoBrowser.swift */,
+				60C70AC02A3B100EDBB8BB3DBD893D70 /* String+ZLPhotoBrowser.swift */,
+				038A96E55AD3539CE6B0BE4DCCE6F790 /* UIColor+ZLPhotoBrowser.swift */,
+				09DF6D388BF46147788C7C483508D1E1 /* UIControl+ZLPhotoBrowser.swift */,
+				67EEC1C70016DD2DDD7D1A4813C4240C /* UIImage+ZLPhotoBrowser.swift */,
+				3D32522B6EFB9C8C6CF5752BCA30C4D4 /* ZLAlbumListCell.swift */,
+				DD65399016F64A1B4FCC169AAA07084F /* ZLAlbumListController.swift */,
+				B06B8DBF213B80B8675AC3A4FABCFFCC /* ZLAlbumListModel.swift */,
+				F64551BA0574231450AC5631B8C76AAB /* ZLCameraCell.swift */,
+				40E04EBC79554D18EB84CE45CC659036 /* ZLClipImageDismissAnimatedTransition.swift */,
+				5F71697C4D05B5C366D8079286DB498F /* ZLClipImageViewController.swift */,
+				B192D4789CA5698CF2F6FEE85754D49B /* ZLCustomCamera.swift */,
+				ECC8A3FEF81D1A96AC44CA4635F2EA34 /* ZLEditImageViewController.swift */,
+				14035DAC2F1625A991D156AA425FE8C3 /* ZLEditVideoViewController.swift */,
+				A858949A077EF88D37D38F5C2C54A9E5 /* ZLEmbedAlbumListView.swift */,
+				050BC2C5F1CC4450F27F19167B4ABC70 /* ZLFetchImageOperation.swift */,
+				7A60923AA8B63BDB7838C6416EC8F035 /* ZLGeneralDefine.swift */,
+				45C55848107A6454268B94EBF6015CBA /* ZLImageNavController.swift */,
+				92EDE439FE9E24E50D65AC772CF528C3 /* ZLLanguageDefine.swift */,
+				B61161FB9294B01A6A45A4130D5E8796 /* ZLPhotoBrowser.h */,
+				6CEB93A7A7B0FDE3E1ACD4EF3C19A90F /* ZLPhotoBrowser.swift */,
+				9A1829D555C2B2D45DFACF346E6ED8B4 /* ZLPhotoConfiguration.swift */,
+				E566038D1118F4C36B5C55E3FC0176C0 /* ZLPhotoManager.swift */,
+				06D9015B41BD2774B5E33879B75C7122 /* ZLPhotoModel.swift */,
+				CDB93B3C2EF22911C3F46B563BBC77FE /* ZLPhotoPreviewCell.swift */,
+				EDA8876888833D649FAE703C2553812E /* ZLPhotoPreviewSheet.swift */,
+				A125F8BAACA34AA6F782FF43EA608AEC /* ZLPhotoPreviewViewController.swift */,
+				0C83197E0F49D3C3950A9AF6182BF1D9 /* ZLPreviewImagePopAnimatedTransition.swift */,
+				4BF0772596EAD7078609E752A2E56D9C /* ZLPreviewImagePopInteractiveTransition.swift */,
+				60FBAAB3F4CFA432BBBD387C4E068C34 /* ZLProgressHUD.swift */,
+				A2CC6EDCC1A5D7D1A8E41A194ED965A1 /* ZLProgressView.swift */,
+				7D448EC7E96B28D1B19CFFD65A40707A /* ZLThumbnailPhotoCell.swift */,
+				0C88BE54C630FC5D96B0F8EF341602AE /* ZLThumbnailViewController.swift */,
 			);
-			name = Products;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		6799E9E9B6BC3274CC7D6D3AE429A025 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9EF5C51C81501E97D99BF8D2D816496C /* FBSnapshotTestCase */,
-				0AB91E11847CB18F9B5AF33DC96A669F /* ZLPhotoBrowser */,
+				DE71984D8EBF48F101F3DC6E5BB1C648 /* FBSnapshotTestCase */,
+				90E945416CC33C94C87AA1339D874841 /* ZLPhotoBrowser */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6A75C78F18D40C5CDFA2A8DA76F50326 /* Support Files */ = {
+		7251B8D8D25CB3D51C941FC00B6FF4B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7235CCECCF84A900814F17B9607891A2 /* YYNative.modulemap */,
-				334B4C073FF860EE657320018A274560 /* YYNative-dummy.m */,
-				080A0EBC6EE2BD190BE847A7F8FCAEDB /* YYNative-Info.plist */,
-				FC6E453DB1C0B413D073FF9620663503 /* YYNative-prefix.pch */,
-				4BEFB3413AB75EFCFE8A56268D4515DD /* YYNative-umbrella.h */,
-				FACFAD22F4F2AD61457EF82FEDD1046A /* YYNative.debug.xcconfig */,
-				D87182B8C362967BF1DB64DD658BCB77 /* YYNative.release.xcconfig */,
+				99005E6DF6CEC91482B675C015119EBE /* ResourceBundle-YYNative-YYNative-Info.plist */,
+				0AA34D4C8443561561A650166784365D /* YYNative.modulemap */,
+				A1B085C66E6EF39777D226A8EE20C331 /* YYNative.xcconfig */,
+				790892B3B463ED1BA2F59460A58009D8 /* YYNative-dummy.m */,
+				247DEA9417BB1552C160BBAB14FC89CF /* YYNative-Info.plist */,
+				04662B1BFF626FB257825DE7F04CFC8F /* YYNative-prefix.pch */,
+				9DD224D072BF905DBEEA4B875CBAABA0 /* YYNative-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YYNative";
 			sourceTree = "<group>";
 		};
-		6AA19FCAA19EC0FC0DE0D63109CBE0FA /* Support Files */ = {
+		90E945416CC33C94C87AA1339D874841 /* ZLPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				0D07AE7CF1C2472B590137E87E325AA1 /* FBSnapshotTestCase.modulemap */,
-				B41F787A5B709461321B5FDCB2F9ACAE /* FBSnapshotTestCase-dummy.m */,
-				54B57A545A8FE798F68643EB01073A6F /* FBSnapshotTestCase-Info.plist */,
-				76CA55D1DDA623190DD7FA314A998CF9 /* FBSnapshotTestCase-prefix.pch */,
-				8DFA272A1F07420864D32F8079CB14A7 /* FBSnapshotTestCase-umbrella.h */,
-				CBA54D0EAF145BE95E032811C1A279E5 /* FBSnapshotTestCase.debug.xcconfig */,
-				0F55CC579AB83F53FECFB5AF6FEFB714 /* FBSnapshotTestCase.release.xcconfig */,
+				678AA44AC30DA75F778E25B131F3D86C /* Core */,
+				1B0A6484528D42CEB792489D01AD7D11 /* Resources */,
+				D1A7C0AAD9A61823BF8C6EE95900A586 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		791C1D47BFC0807B4063957C22B3621E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6C7F5FE437F035FFD35F6D07592233A7 /* ZLPhotoBrowser.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		82B2FD307B4BC7C69984E3CD3779D2E0 /* YYNative */ = {
-			isa = PBXGroup;
-			children = (
-				BA27A6A1489582EF83731381F6F90D54 /* YYPhotoManager.swift */,
-				49C555BE94E28A304C34C4E4A1E584EB /* YYRecorderManager.swift */,
-				5C5E16133E00A6E01B10B5A6D5D276CC /* YYWebView.swift */,
-				B01A68E6ED4EED9F30559250EFDBE191 /* Pod */,
-				6A75C78F18D40C5CDFA2A8DA76F50326 /* Support Files */,
-			);
-			name = YYNative;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9EF5C51C81501E97D99BF8D2D816496C /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				D39B5E8DF8D530F7F50952409DE82CD3 /* Core */,
-				6AA19FCAA19EC0FC0DE0D63109CBE0FA /* Support Files */,
-				F4DCB27F84BFB078BCEB51D4B51D220A /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
+			name = ZLPhotoBrowser;
+			path = ZLPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		AD29B99BB38C54762E03F31BE848DD9A /* iOS */ = {
@@ -479,22 +460,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B01A68E6ED4EED9F30559250EFDBE191 /* Pod */ = {
+		B5A9036D87803670C88CD68D1C7B958A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				380E66DDA7193861AEDCCA492785938D /* LICENSE */,
-				349C172BAFF60949C8E91D85B63B7374 /* README.md */,
-				484A2B1EB2B86B85D3983FD2FD37B3EE /* YYNative.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B23ADFED75356AD8015439B3C0761506 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82B2FD307B4BC7C69984E3CD3779D2E0 /* YYNative */,
+				E0E15D15899C3C0CAB20FE2B1C5FB5DE /* YYNative */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BCFDB7308BD6E89BF98A4176C4D3C315 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9D78B94B9F82F454E833D3819E819 /* FBSnapshotTestCase.modulemap */,
+				BE52DA275C4A77287ED2CB575509AB98 /* FBSnapshotTestCase.xcconfig */,
+				6B6549D18AD35041D2F29BAA7665ABB5 /* FBSnapshotTestCase-dummy.m */,
+				0C057F488A567AF6DE57E21A695B1F26 /* FBSnapshotTestCase-Info.plist */,
+				B2A73ECA02572A08429C10C88FBC3C76 /* FBSnapshotTestCase-prefix.pch */,
+				024AB3B616045E039922AF3D0B561673 /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		BF23FA0C22F974CD15A9EEF212EC9DED /* Pods-YYNative_Tests */ = {
@@ -518,33 +503,75 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B23ADFED75356AD8015439B3C0761506 /* Development Pods */,
+				B5A9036D87803670C88CD68D1C7B958A /* Development Pods */,
 				3F2B034C63B116DA8D7F83FA2B0AF539 /* Frameworks */,
 				6799E9E9B6BC3274CC7D6D3AE429A025 /* Pods */,
-				606DE9A58E94809EB42241C0EA735DEA /* Products */,
+				00A0CE7ADFC1D679CEA1DE13811CC842 /* Products */,
 				E6154A1BE560C6F28DC30B19A0BA2B91 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D39B5E8DF8D530F7F50952409DE82CD3 /* Core */ = {
+		D1A7C0AAD9A61823BF8C6EE95900A586 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7742A1553C48E7644F9C8815F914827A /* FBSnapshotTestCase.h */,
-				C2EDA245DDAD9E0ABF9F3BD3C70152F8 /* FBSnapshotTestCase.m */,
-				643565D0BC0E1F3920DD7A0A93F30C04 /* FBSnapshotTestCasePlatform.h */,
-				7EB1489FFF1D712B6100B7C50F48F35E /* FBSnapshotTestCasePlatform.m */,
-				95301EF5703D1E61B61EACAA545B70C7 /* FBSnapshotTestController.h */,
-				6376A19450812ED4922F1080039F010A /* FBSnapshotTestController.m */,
-				44B0E044BACD6683AA45492155BB72A9 /* UIApplication+StrictKeyWindow.h */,
-				12C58E22387059AFFF612C978FE8B558 /* UIApplication+StrictKeyWindow.m */,
-				27C80B62AA5864A3BFE029E52FB0D1C9 /* UIImage+Compare.h */,
-				61DEB5C91BEE1799AC6B7337D66F36E4 /* UIImage+Compare.m */,
-				E9F15B77D6DC0013F722530A208399E2 /* UIImage+Diff.h */,
-				2DFD4CB90FC2243B78DA0415BBC66EAF /* UIImage+Diff.m */,
-				AE80142EECC9CABCA7BA61BBEC762F8E /* UIImage+Snapshot.h */,
-				EDCD60C56FAEC9EC06EFAEA53D8574E2 /* UIImage+Snapshot.m */,
+				5E7C699D6EF8DEF4BA1B9C076EF77830 /* ZLPhotoBrowser.modulemap */,
+				70130C43B6E1D457E9CBAB691CDEBA38 /* ZLPhotoBrowser.xcconfig */,
+				47755BA2C8A41191250E87B9180F9177 /* ZLPhotoBrowser-dummy.m */,
+				B1BCFE18D7ADD7D3C0C9F728387ABD26 /* ZLPhotoBrowser-Info.plist */,
+				E3605B6ED0A7FEF835E0BA5F3E53BEB2 /* ZLPhotoBrowser-prefix.pch */,
+				5347CD31976EB6075B1CDB6BC92473B2 /* ZLPhotoBrowser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZLPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		DC9441A48E9747DB84D9EE1C220B93BF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0EAA273152E1FCBAE5DF1AF4F4220 /* FBSnapshotTestCase.h */,
+				B8323BCEBA0773BCBFADBEF52DEF80A8 /* FBSnapshotTestCase.m */,
+				46D30A431DD22DEF36D9FD037F66ABF4 /* FBSnapshotTestCasePlatform.h */,
+				47F63EC085C3E96F0B1AF1875CF5CD41 /* FBSnapshotTestCasePlatform.m */,
+				B9BF8586A136FFCFECC2F807267C851D /* FBSnapshotTestController.h */,
+				F05877031DB043DEBC5DFA3CA82E0980 /* FBSnapshotTestController.m */,
+				CF88B6EE61C38F424D7C04798A13092E /* UIApplication+StrictKeyWindow.h */,
+				288C4278CEABEAB2352ABB0307BD213B /* UIApplication+StrictKeyWindow.m */,
+				9D536E919FFA11237341F55C4B9C5A5F /* UIImage+Compare.h */,
+				96BB1CC28A5CC227597621786FE9ABA8 /* UIImage+Compare.m */,
+				D3A9B5710870967E2E6D3921A73BED0C /* UIImage+Diff.h */,
+				DB640A4B9319B50D489EFC1C26F38560 /* UIImage+Diff.m */,
+				3A72E355612FDD8639C965C2CDDCD186 /* UIImage+Snapshot.h */,
+				81FC9524B5D16EBED2807F66370A72F2 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		DE71984D8EBF48F101F3DC6E5BB1C648 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				DC9441A48E9747DB84D9EE1C220B93BF /* Core */,
+				BCFDB7308BD6E89BF98A4176C4D3C315 /* Support Files */,
+				EEFED319DA2DDC034A83E52E7D38AC1C /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		E0E15D15899C3C0CAB20FE2B1C5FB5DE /* YYNative */ = {
+			isa = PBXGroup;
+			children = (
+				B886627A90CC6AE42159EDB4BD57E938 /* YYNativeDefine.swift */,
+				FC9B58F94D02D74F4E99CAE797D1256A /* YYPhotoManager.swift */,
+				FA4517D41F1F2962F35EE757FFA2FFC2 /* YYRecorderManager.swift */,
+				3D89C24BD234FCDAA4BE3031C0F0479C /* YYScanViewController.swift */,
+				D3AD0D49B063EA11C0E9037F3EEF61F2 /* YYWebView.swift */,
+				F5E1D663E4424C6045010276E998AD77 /* YYWebViewController.swift */,
+				2D99CB57D68C75005AE15710B24FE162 /* Pod */,
+				F0618E4EE5FC8B2EE8D8605F65C60554 /* Resources */,
+				7251B8D8D25CB3D51C941FC00B6FF4B7 /* Support Files */,
+			);
+			name = YYNative;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E6154A1BE560C6F28DC30B19A0BA2B91 /* Targets Support Files */ = {
@@ -556,12 +583,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F4DCB27F84BFB078BCEB51D4B51D220A /* SwiftSupport */ = {
+		EEFED319DA2DDC034A83E52E7D38AC1C /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				8371C2868E37F404D33CBC71A5E1E4A2 /* SwiftSupport.swift */,
+				FDA1A33D67D2AEFCDC9A6401DA871490 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		F0618E4EE5FC8B2EE8D8605F65C60554 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D325EDCE23CFAA1349786169B18DE75 /* image.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,6 +617,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F76C8FAE835C96E5A5936FE62D828E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0ABC55E18F2DD3C126517AE74A98CD /* ZLPhotoBrowser-umbrella.h in Headers */,
+				D7A21FF5A2CF3FE92F5CE53F0C84967F /* ZLPhotoBrowser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		724B43A2B35892467F48E5056524E281 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,12 +634,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8172F8EC28BB4539B68B2E8666E45C7D /* Headers */ = {
+		8036206B647406D6613AA00DA075A6F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1079A9AD92EC20AEFE339BAC0F5D0BF /* ZLPhotoBrowser-umbrella.h in Headers */,
-				E86A1C34850A9A53E8BD6510FF4BB2BA /* ZLPhotoBrowser.h in Headers */,
+				D457502EE0C444E13694BE7FBE817284 /* YYNative-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,14 +647,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9428067ED9D04554FC75718DDEBE2770 /* Pods-YYNative_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACD60D20CBC29A237DF4F6B63CA0BD7F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DC21232CC2AC0CCA212AF13913C100C /* YYNative-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,12 +675,12 @@
 		};
 		2FAF03761A44702490259F857A848B42 /* ZLPhotoBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06B0D236F27E307D7ECD29C7F6B71E5E /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser" */;
+			buildConfigurationList = 019BB17D4C9EE776F1BE3A160BAD9F82 /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser" */;
 			buildPhases = (
-				8172F8EC28BB4539B68B2E8666E45C7D /* Headers */,
-				0F4EEEF36883F2D48930055260206046 /* Sources */,
-				4C36C6CBC2502DC9B4716B9DAC1C308E /* Frameworks */,
-				4D77520424AFFA1140E18D0EE59C9646 /* Resources */,
+				6F76C8FAE835C96E5A5936FE62D828E2 /* Headers */,
+				74A35645CA0F950CA4E935B16AEA26D7 /* Sources */,
+				03118E7A291CB4018E858ACBDF8E8E3C /* Frameworks */,
+				7899F8507ADB5EBD56F6170FB9182AFB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -655,6 +690,23 @@
 			productName = ZLPhotoBrowser;
 			productReference = BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		3BED1A5326FE4418AB256C5B9680EA7E /* YYNative-YYNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25E4CF46E963A446BBE69AC892F8E09 /* Build configuration list for PBXNativeTarget "YYNative-YYNative" */;
+			buildPhases = (
+				F06365BE81BDB2692E6ADFD6321D4D8C /* Sources */,
+				9731AD81F758F4AC5BCF89DE120C005C /* Frameworks */,
+				6A8A2FB2CED65CE88C4D3AB03864232E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYNative-YYNative";
+			productName = "YYNative-YYNative";
+			productReference = 6249249BF1AA222E6AADEF3688B426CD /* YYNative.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -696,17 +748,18 @@
 		};
 		B742550C3DA33EAAED155DC17FACAB7F /* YYNative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBA0C68BB112A9C73F053ECB3BB32830 /* Build configuration list for PBXNativeTarget "YYNative" */;
+			buildConfigurationList = C049808D411461EE16A31041199B1ACC /* Build configuration list for PBXNativeTarget "YYNative" */;
 			buildPhases = (
-				ACD60D20CBC29A237DF4F6B63CA0BD7F /* Headers */,
-				85A56CB01711BEDDECA3E70784A0F443 /* Sources */,
-				8604F8AF5A70840149A57E25C15DE488 /* Frameworks */,
-				BCD9DE5DE36FDAD76AA5287B148CD7C8 /* Resources */,
+				8036206B647406D6613AA00DA075A6F7 /* Headers */,
+				256810AD6F2CE6398295B83D145EBF08 /* Sources */,
+				902EBE4942C35BC8369D5AE8DA7C8310 /* Frameworks */,
+				118E642C00D1BCC0682268E0A7D44C38 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				790CCC5E551DCF47B16441E73932E4C5 /* PBXTargetDependency */,
+				A18D3DB99B55717018B97D0F0C4FC613 /* PBXTargetDependency */,
+				7DC04840800FC33E13259473FEEC3224 /* PBXTargetDependency */,
 			);
 			name = YYNative;
 			productName = YYNative;
@@ -731,7 +784,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 606DE9A58E94809EB42241C0EA735DEA /* Products */;
+			productRefGroup = 00A0CE7ADFC1D679CEA1DE13811CC842 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -739,24 +792,25 @@
 				9BA64A4F5257F0D6EA56E11D76FD4E1F /* Pods-YYNative_Example */,
 				22B32127A6ACD3F01C8D533B510F3027 /* Pods-YYNative_Tests */,
 				B742550C3DA33EAAED155DC17FACAB7F /* YYNative */,
+				3BED1A5326FE4418AB256C5B9680EA7E /* YYNative-YYNative */,
 				2FAF03761A44702490259F857A848B42 /* ZLPhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		118E642C00D1BCC0682268E0A7D44C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE25E3CA84AC6A0B9E6A95BE3E3DBA /* YYNative.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39895B78D38D9C01BB2ACE5FE8EA9145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D77520424AFFA1140E18D0EE59C9646 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				639C6216E216D20B0F466513177870FC /* ZLPhotoBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,14 +821,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACD9EFA599A141D6C70AE007F5741048 /* Resources */ = {
+		6A8A2FB2CED65CE88C4D3AB03864232E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E46F8BD78100AF6883BBCB6EE35E0A /* image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCD9DE5DE36FDAD76AA5287B148CD7C8 /* Resources */ = {
+		7899F8507ADB5EBD56F6170FB9182AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF1A26ADA340A9BE04C8B775C922CA1 /* ZLPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD9EFA599A141D6C70AE007F5741048 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -792,44 +855,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F4EEEF36883F2D48930055260206046 /* Sources */ = {
+		256810AD6F2CE6398295B83D145EBF08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB66BDDA9582B7652CDD4448ABD96D3 /* Bundle+ZLPhotoBrowser.swift in Sources */,
-				A5573A94D05706BFB77694F93FA8C01C /* Cell+ZLPhotoBrowser.swift in Sources */,
-				013EB2A700973DE941931ADF24DA3774 /* String+ZLPhotoBrowser.swift in Sources */,
-				848D87BB2BD4595D63C5CD71CA530972 /* UIColor+ZLPhotoBrowser.swift in Sources */,
-				6F40E301EDB25F6ACE39EF62224434DC /* UIControl+ZLPhotoBrowser.swift in Sources */,
-				D2252D661BFB5B8EE28B3058AD0B3925 /* UIImage+ZLPhotoBrowser.swift in Sources */,
-				A0D4C994DA99753AF4CF3347283FCD5D /* ZLAlbumListCell.swift in Sources */,
-				EE64D6E972331BBF9274B62182CAC784 /* ZLAlbumListController.swift in Sources */,
-				086862A40DA2D43DD80E8CCDD8AAE596 /* ZLAlbumListModel.swift in Sources */,
-				2A0127C26DD75A6EA9A48DE12E5EDC6D /* ZLCameraCell.swift in Sources */,
-				15547D1212A2D975282A1B3AB26AE95D /* ZLClipImageDismissAnimatedTransition.swift in Sources */,
-				B4893842250B674A4A6DB37B683C6A04 /* ZLClipImageViewController.swift in Sources */,
-				66E28997A30DD7D5FC33A73338DFB4C4 /* ZLCustomCamera.swift in Sources */,
-				FDE134DFBF075C499515D1E2067D710E /* ZLEditImageViewController.swift in Sources */,
-				E5A03B06AB2F122F936C08590EB27F6B /* ZLEditVideoViewController.swift in Sources */,
-				25CB05883CFC09581E0576BD20BD73D0 /* ZLEmbedAlbumListView.swift in Sources */,
-				E3783695CF173C99215CAD219ABD47E4 /* ZLFetchImageOperation.swift in Sources */,
-				CD36B6DF45771D908565516BAD79AB5A /* ZLGeneralDefine.swift in Sources */,
-				D4FAD784C16E2207CB5ADE10F915C00D /* ZLImageNavController.swift in Sources */,
-				73581150F9C2DCAA4713942121437F61 /* ZLLanguageDefine.swift in Sources */,
-				DA309C615DD2AB56575F74F16D98AFB4 /* ZLPhotoBrowser-dummy.m in Sources */,
-				AE122B7137F32D98CA3C2A2D9C0B3A14 /* ZLPhotoBrowser.swift in Sources */,
-				27EFEB7E4721FBC757AF437324981063 /* ZLPhotoConfiguration.swift in Sources */,
-				61183F3353BAE8F856DFC85F858C2718 /* ZLPhotoManager.swift in Sources */,
-				252DD7CC15820DADEECBBD98B0F2942F /* ZLPhotoModel.swift in Sources */,
-				4926F97F3AC3DCD0245C646A9BE9BDE6 /* ZLPhotoPreviewCell.swift in Sources */,
-				4BF49CC86CB5AE06D068CA29FD00BB55 /* ZLPhotoPreviewSheet.swift in Sources */,
-				ADEF53A1E5CF37E7B564806C0B82E311 /* ZLPhotoPreviewViewController.swift in Sources */,
-				1D21E3BCE3F1B9A1F0A2BD2237806576 /* ZLPreviewImagePopAnimatedTransition.swift in Sources */,
-				DE3710014BDEBC8F17496812C330F6B7 /* ZLPreviewImagePopInteractiveTransition.swift in Sources */,
-				5DD3CD1B5A8EC6465C29BA834C5C924F /* ZLProgressHUD.swift in Sources */,
-				42D6CB36352AA85DFCDD6966E98AFEDF /* ZLProgressView.swift in Sources */,
-				82C188ADD72A46F3EB96FD7ECE57757A /* ZLThumbnailPhotoCell.swift in Sources */,
-				69A13B11657AD60883DEE1502A5464A2 /* ZLThumbnailViewController.swift in Sources */,
+				F09FF71924FC29E7356E5494A3C83EE1 /* YYNative-dummy.m in Sources */,
+				6AF25D81DA1E2D3E97B1D5389D3EEFBF /* YYNativeDefine.swift in Sources */,
+				32B3F6222D1F4765ABEB7D76058A4DF3 /* YYPhotoManager.swift in Sources */,
+				3C11ED38ED7CF6F16AC00EFE2C8F3C4A /* YYRecorderManager.swift in Sources */,
+				0D6D8411FE4BB2DD08E35D73D0492C84 /* YYScanViewController.swift in Sources */,
+				FD4D9A1314DBA6A66AEDE935EA88600D /* YYWebView.swift in Sources */,
+				3189574180E6EEA1479B2F9984B9024C /* YYWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,14 +877,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85A56CB01711BEDDECA3E70784A0F443 /* Sources */ = {
+		74A35645CA0F950CA4E935B16AEA26D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8F1EF557767A55B25C22BC7102E265 /* YYNative-dummy.m in Sources */,
-				D4C6DD7B149A028A0E72AEE0BC7818BB /* YYPhotoManager.swift in Sources */,
-				F3CE94F201F2BF35B94255D37D4E6FBF /* YYRecorderManager.swift in Sources */,
-				75854E608FA45790BA0D408E213A6A1C /* YYWebView.swift in Sources */,
+				A0DA4CA9ADB9B29CEBE728A018C87FE0 /* Bundle+ZLPhotoBrowser.swift in Sources */,
+				3F0FA925FFDC70E3572FA4116DA392BC /* Cell+ZLPhotoBrowser.swift in Sources */,
+				513D268A1FC3E194DA078D7D4C8A6A40 /* String+ZLPhotoBrowser.swift in Sources */,
+				046689702B1E21635CCF37693BE674F6 /* UIColor+ZLPhotoBrowser.swift in Sources */,
+				1D128E421B23B6C6BF5A5597E0C035A4 /* UIControl+ZLPhotoBrowser.swift in Sources */,
+				0F7900CC5E1A54EFD176BA126D06874A /* UIImage+ZLPhotoBrowser.swift in Sources */,
+				727875726A42ADB7D4B166E746215297 /* ZLAlbumListCell.swift in Sources */,
+				72622930EE3CBBCB7DBCEB1632E36E0C /* ZLAlbumListController.swift in Sources */,
+				C2422564430073C743B660DF5B636D14 /* ZLAlbumListModel.swift in Sources */,
+				23020428556E4677751DE489DD0AACD2 /* ZLCameraCell.swift in Sources */,
+				2F6BDB9E78C56028E81CD85E12074A36 /* ZLClipImageDismissAnimatedTransition.swift in Sources */,
+				D75C24FC1C2C44E84CEBCCBE95047C0E /* ZLClipImageViewController.swift in Sources */,
+				113D9748B9DBC8A337914157BBC3234E /* ZLCustomCamera.swift in Sources */,
+				CD354A746DAF8639EB4A6D96444111FB /* ZLEditImageViewController.swift in Sources */,
+				323302D6BB470A84DF07ADE69EF75102 /* ZLEditVideoViewController.swift in Sources */,
+				0D1CBD2451840EF55257C666E12F8D00 /* ZLEmbedAlbumListView.swift in Sources */,
+				8C60EDC3E52A40E7C2BEAE8A11B817A6 /* ZLFetchImageOperation.swift in Sources */,
+				CEF408A2EB96541B6A640C0543D4D3B2 /* ZLGeneralDefine.swift in Sources */,
+				6DD860C86E21BEEA8B6E40515682331D /* ZLImageNavController.swift in Sources */,
+				96A8DC96807386BF2B9B5BB7260DF950 /* ZLLanguageDefine.swift in Sources */,
+				4FC712546BC7110CE6DB0DF96066C0D4 /* ZLPhotoBrowser-dummy.m in Sources */,
+				7EF4222484058791BD92D69F75A2A15C /* ZLPhotoBrowser.swift in Sources */,
+				A67F05166F048AAF3D46EBEC389E6519 /* ZLPhotoConfiguration.swift in Sources */,
+				F1D0C7E85125E3EC1642C0801C8CA73D /* ZLPhotoManager.swift in Sources */,
+				CB6028F43327DEF3FBAF639857A81A13 /* ZLPhotoModel.swift in Sources */,
+				34353BB3B05CB64E1F6BC40FE99A3B29 /* ZLPhotoPreviewCell.swift in Sources */,
+				BD6D65A6D576E50CFD3C343100914B4E /* ZLPhotoPreviewSheet.swift in Sources */,
+				DA7D5A12F91EE40FC01866D047A10DFB /* ZLPhotoPreviewViewController.swift in Sources */,
+				283C0667141CFF93440A2142C8EED317 /* ZLPreviewImagePopAnimatedTransition.swift in Sources */,
+				F6C4087EF9A210E6C2848283D82973E9 /* ZLPreviewImagePopInteractiveTransition.swift in Sources */,
+				57D25FA8FA0D2A177226CC007A4FFDBF /* ZLProgressHUD.swift in Sources */,
+				ACC86D9F11026B017D58CF031C068AAE /* ZLProgressView.swift in Sources */,
+				72A76CC8855BD5B92FFF5BB30F5EDCBC /* ZLThumbnailPhotoCell.swift in Sources */,
+				C6CB8B57A6E2D2C834FFD8296F5846EC /* ZLThumbnailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,6 +934,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F06365BE81BDB2692E6ADFD6321D4D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -883,17 +956,23 @@
 			target = B742550C3DA33EAAED155DC17FACAB7F /* YYNative */;
 			targetProxy = 1B9E802CBEA858F7F50DA7C8B4FE9C22 /* PBXContainerItemProxy */;
 		};
-		790CCC5E551DCF47B16441E73932E4C5 /* PBXTargetDependency */ = {
+		7DC04840800FC33E13259473FEEC3224 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZLPhotoBrowser;
 			target = 2FAF03761A44702490259F857A848B42 /* ZLPhotoBrowser */;
-			targetProxy = 2537EEFA376315F20DF2FF7BB8158578 /* PBXContainerItemProxy */;
+			targetProxy = 766BAC22A16E0D5BDAA7994D60C5FD6E /* PBXContainerItemProxy */;
 		};
 		9F306CBA55FA106F9FD72634588530E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YYNative_Example";
 			target = 9BA64A4F5257F0D6EA56E11D76FD4E1F /* Pods-YYNative_Example */;
 			targetProxy = AA135EEF642C50F9DB56C102DDCF13DF /* PBXContainerItemProxy */;
+		};
+		A18D3DB99B55717018B97D0F0C4FC613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YYNative-YYNative";
+			target = 3BED1A5326FE4418AB256C5B9680EA7E /* YYNative-YYNative */;
+			targetProxy = 31E85A265EB21DBA388D93885BC97122 /* PBXContainerItemProxy */;
 		};
 		B3B34CBEC94EAD45B6F6A0A8DAC48C14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -904,12 +983,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		138D5017459C451956216ABF87B056CF /* Release */ = {
+		223C75E41A9D2D61AFA1B9AD9C211902 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D87182B8C362967BF1DB64DD658BCB77 /* YYNative.release.xcconfig */;
+			baseConfigurationReference = BE52DA275C4A77287ED2CB575509AB98 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -919,18 +997,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYNative/YYNative-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYNative/YYNative-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYNative/YYNative.modulemap";
-				PRODUCT_MODULE_NAME = YYNative;
-				PRODUCT_NAME = YYNative;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -991,7 +1069,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1032,9 +1111,9 @@
 			};
 			name = Debug;
 		};
-		4321A1A141E2ECC8A66FBA071A21FE19 /* Debug */ = {
+		54EFBB147B9FF63EEF494C8923A8B03E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FACFAD22F4F2AD61457EF82FEDD1046A /* YYNative.debug.xcconfig */;
+			baseConfigurationReference = 70130C43B6E1D457E9CBAB691CDEBA38 /* ZLPhotoBrowser.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1047,23 +1126,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYNative/YYNative-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYNative/YYNative-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYNative/YYNative.modulemap";
-				PRODUCT_MODULE_NAME = YYNative;
-				PRODUCT_NAME = YYNative;
+				MODULEMAP_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = ZLPhotoBrowser;
+				PRODUCT_NAME = ZLPhotoBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		66864613F14B61189463E2F6960D0001 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1100,37 +1180,37 @@
 			};
 			name = Debug;
 		};
-		8C7C64A881EB5BBCBCDFED6FD6F2651F /* Release */ = {
+		87EA1A33E3C75230BE0D3C74C9D9FF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5C6EFBF099FCD125A3C7E1EDEBD87A0 /* ZLPhotoBrowser.release.xcconfig */;
+			baseConfigurationReference = A1B085C66E6EF39777D226A8EE20C331 /* YYNative.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser.modulemap";
-				PRODUCT_MODULE_NAME = ZLPhotoBrowser;
-				PRODUCT_NAME = ZLPhotoBrowser;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YYNative";
+				IBSC_MODULE = YYNative;
+				INFOPLIST_FILE = "Target Support Files/YYNative/ResourceBundle-YYNative-YYNative-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = YYNative;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8905D19CEACF3AC27AE12A911EBDECA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B085C66E6EF39777D226A8EE20C331 /* YYNative.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YYNative";
+				IBSC_MODULE = YYNative;
+				INFOPLIST_FILE = "Target Support Files/YYNative/ResourceBundle-YYNative-YYNative-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = YYNative;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1170,42 +1250,9 @@
 			};
 			name = Release;
 		};
-		CBF104EC5200A8E63283B979FF32E348 /* Debug */ = {
+		D8CA8FC163C5B6AE608806F3092C31F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5672259428CD873954BA4FBE2A22E0AF /* ZLPhotoBrowser.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser.modulemap";
-				PRODUCT_MODULE_NAME = ZLPhotoBrowser;
-				PRODUCT_NAME = ZLPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D2B018A492E513A80E663EC09762EE96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F55CC579AB83F53FECFB5AF6FEFB714 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = BE52DA275C4A77287ED2CB575509AB98 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -1228,13 +1275,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1300,11 +1346,12 @@
 			};
 			name = Debug;
 		};
-		EB0A629716628F10A80AB11E89FAB827 /* Debug */ = {
+		E363798ED44625147222C53F331BC03D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA54D0EAF145BE95E032811C1A279E5 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = 70130C43B6E1D457E9CBAB691CDEBA38 /* ZLPhotoBrowser.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1314,18 +1361,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/ZLPhotoBrowser/ZLPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = ZLPhotoBrowser;
+				PRODUCT_NAME = ZLPhotoBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1368,14 +1415,81 @@
 			};
 			name = Release;
 		};
+		EF511BAEAFCAD4DF24B77565FDA7198F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B085C66E6EF39777D226A8EE20C331 /* YYNative.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYNative/YYNative-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYNative/YYNative-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYNative/YYNative.modulemap";
+				PRODUCT_MODULE_NAME = YYNative;
+				PRODUCT_NAME = YYNative;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F13EAB2431A6A0185718FBD06A2749E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B085C66E6EF39777D226A8EE20C331 /* YYNative.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYNative/YYNative-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYNative/YYNative-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYNative/YYNative.modulemap";
+				PRODUCT_MODULE_NAME = YYNative;
+				PRODUCT_NAME = YYNative;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06B0D236F27E307D7ECD29C7F6B71E5E /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser" */ = {
+		019BB17D4C9EE776F1BE3A160BAD9F82 /* Build configuration list for PBXNativeTarget "ZLPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBF104EC5200A8E63283B979FF32E348 /* Debug */,
-				8C7C64A881EB5BBCBCDFED6FD6F2651F /* Release */,
+				E363798ED44625147222C53F331BC03D /* Debug */,
+				54EFBB147B9FF63EEF494C8923A8B03E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1401,17 +1515,26 @@
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB0A629716628F10A80AB11E89FAB827 /* Debug */,
-				D2B018A492E513A80E663EC09762EE96 /* Release */,
+				D8CA8FC163C5B6AE608806F3092C31F2 /* Debug */,
+				223C75E41A9D2D61AFA1B9AD9C211902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBA0C68BB112A9C73F053ECB3BB32830 /* Build configuration list for PBXNativeTarget "YYNative" */ = {
+		B25E4CF46E963A446BBE69AC892F8E09 /* Build configuration list for PBXNativeTarget "YYNative-YYNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4321A1A141E2ECC8A66FBA071A21FE19 /* Debug */,
-				138D5017459C451956216ABF87B056CF /* Release */,
+				87EA1A33E3C75230BE0D3C74C9D9FF47 /* Debug */,
+				8905D19CEACF3AC27AE12A911EBDECA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C049808D411461EE16A31041199B1ACC /* Build configuration list for PBXNativeTarget "YYNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF511BAEAFCAD4DF24B77565FDA7198F /* Debug */,
+				F13EAB2431A6A0185718FBD06A2749E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
